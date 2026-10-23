@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { routing, type Locale } from "@/i18n/routing";
 
-const locales: Locale[] = routing.locales;
+const locales = routing.locales;
 
 export function pageMetadata(locale: Locale, route: string, title: string, description: string): Metadata {
   const path = `/${locale}${route === "/" ? "" : route}`;
