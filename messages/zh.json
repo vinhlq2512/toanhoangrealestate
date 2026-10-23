@@ -410,7 +410,7 @@
     "lineTitle": "通过 LINE 联系",
     "lineText": "直接联系我们的团队，沟通您的需求。",
     "linePhone": "LINE 电话号码",
-    "lineAddFriend": "打开 LINE 添加好友",
+    "lineProfileLink": "打开我们的 LINE 主页",
     "facebookTitle": "通过 Facebook 联系",
     "facebookText": "向我们发送问题，了解您关心的服务。",
     "infoTitle": "联系信息",
@@ -427,7 +427,7 @@
     "instagram": "Instagram · 公寓与生活空间照片。",
     "line": "LINE · 联系我们获取所需咨询。",
     "closing": "期待陪伴您在日本开启生活。",
-    "channelsNote": "Facebook 页面已添加链接。如需通过 LINE 联系，请在 LINE 的添加好友中搜索 070-7595-7320。"
+    "channelsNote": "Facebook 页面和 LINE 主页均已添加链接。也可以在 LINE 中搜索 070-7595-7320。"
   },
   "listing": {
     "demoNotice": "以下内容仅为界面演示数据，并非真实房源。实际价格、房屋状态、地址及租赁条件请向我们确认。",

@@ -215,7 +215,7 @@
     "lineTitle": "LINEで相談する",
     "lineText": "ご希望について、スタッフへ直接ご相談いただけます。",
     "linePhone": "LINE電話番号",
-    "lineAddFriend": "LINEを開いて友だち追加",
+    "lineProfileLink": "LINEプロフィールを開く",
     "facebookTitle": "Facebookでお問い合わせ",
     "facebookText": "ご質問や必要なサービスについて、メッセージでご相談ください。",
     "infoTitle": "連絡先",
@@ -232,7 +232,7 @@
     "instagram": "Instagram · マンションや室内の写真。",
     "line": "LINE · ご希望に合わせた相談はこちら。",
     "closing": "日本での新しい暮らしをサポートします。",
-    "channelsNote": "Facebookページにリンクしています。LINEで連絡するには、友だち追加から070-7595-7320を検索してください。"
+    "channelsNote": "FacebookページとLINEプロフィールにリンクしています。LINEでは070-7595-7320で検索することもできます。"
   },
   "listing": {
     "demoNotice": "以下は画面表示用のサンプルデータで、実際の募集物件ではありません。価格、空室状況、住所、賃貸条件はスタッフへご確認ください。",

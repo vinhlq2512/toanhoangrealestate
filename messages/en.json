@@ -410,7 +410,7 @@
     "lineTitle": "Message us on LINE",
     "lineText": "Contact our team directly to discuss what you need.",
     "linePhone": "LINE phone number",
-    "lineAddFriend": "Open LINE to add us",
+    "lineProfileLink": "Open our LINE profile",
     "facebookTitle": "Contact us on Facebook",
     "facebookText": "Send a question and talk with us about the service you need.",
     "infoTitle": "Contact information",
@@ -427,7 +427,7 @@
     "instagram": "Instagram · Apartments and living spaces.",
     "line": "LINE · Message us for advice tailored to you.",
     "closing": "We hope to support you as you build your life in Japan.",
-    "channelsNote": "Our Facebook page is linked. To connect on LINE, open Add friends in LINE and search for 070-7595-7320."
+    "channelsNote": "Our Facebook page and LINE profile are linked. You can also find us on LINE by searching 070-7595-7320."
   },
   "listing": {
     "demoNotice": "The examples below are mock data for the interface only; they are not real listings. Confirm actual price, availability, address and rental terms with our team.",
