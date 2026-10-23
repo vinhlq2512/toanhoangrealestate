@@ -99,7 +99,7 @@
     "socialFacebook": "获取资讯并与我们的团队交流",
     "socialTiktok": "了解住房和日常生活视频",
     "socialInstagram": "公寓照片与生活空间",
-    "socialLine": "联系我们，获取所需咨询",
+    "socialLine": "LINE：070-7595-7320 · 联系我们获取所需咨询",
     "ctaTitle": "您的新旅程从这里开始",
     "ctaText": "您正在找房、准备搬到日本，或需要日常生活协助吗？欢迎告诉我们您的需求。",
     "cta": "一起寻找合适的选择"
@@ -409,6 +409,8 @@
     "description": "您正在找房、准备搬到日本，或需要日常生活协助吗？我们愿意倾听并与您一起了解合适选择。",
     "lineTitle": "通过 LINE 联系",
     "lineText": "直接联系我们的团队，沟通您的需求。",
+    "linePhone": "LINE 电话号码",
+    "lineAddFriend": "打开 LINE 添加好友",
     "facebookTitle": "通过 Facebook 联系",
     "facebookText": "向我们发送问题，了解您关心的服务。",
     "infoTitle": "联系信息",
@@ -425,7 +427,7 @@
     "instagram": "Instagram · 公寓与生活空间照片。",
     "line": "LINE · 联系我们获取所需咨询。",
     "closing": "期待陪伴您在日本开启生活。",
-    "channelsNote": "所提供资料中没有 LINE、Facebook、TikTok 和 Instagram 的具体链接。您可以通过电话或电子邮件联系我们。"
+    "channelsNote": "Facebook 页面已添加链接。如需通过 LINE 联系，请在 LINE 的添加好友中搜索 070-7595-7320。"
   },
   "listing": {
     "demoNotice": "以下内容仅为界面演示数据，并非真实房源。实际价格、房屋状态、地址及租赁条件请向我们确认。",

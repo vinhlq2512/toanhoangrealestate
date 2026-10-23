@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { PageHero } from "@/components/shared/page-hero";
 import { pageMetadata } from "@/lib/metadata";
+import { facebookPageUrl, lineAddFriendsUrl, linePhoneDisplay } from "@/lib/contact-links";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
@@ -21,8 +22,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
     <PageHero eyebrow={t("eyebrow")} title={t("title")} description={t("description")} image="/images/locations/kobe-city-at-night.png" size="compact" />
     <section className="contact-page"><div className="container">
       <div className="contact-channel-grid">
-        <article className="contact-channel"><span className="channel-icon line-icon">LINE</span><div><p className="eyebrow">{t("lineTitle")}</p><h2>{t("lineTitle")}</h2><p>{t("lineText")}</p><a href="mailto:genesis.estate.jp@gmail.com?subject=Website%20enquiry" className="text-link">{t("email")} <ArrowUpRight size={16} /></a></div></article>
-        <article className="contact-channel"><span className="channel-icon facebook-icon">f</span><div><p className="eyebrow">{t("facebookTitle")}</p><h2>{t("facebookTitle")}</h2><p>{t("facebookText")}</p><a href="mailto:genesis.estate.jp@gmail.com?subject=Website%20enquiry" className="text-link">{t("email")} <ArrowUpRight size={16} /></a></div></article>
+        <article className="contact-channel"><span className="channel-icon line-icon">LINE</span><div><p className="eyebrow">{t("lineTitle")}</p><h2>{t("lineTitle")}</h2><p>{t("lineText")}</p><p className="contact-number">{t("linePhone")}: {linePhoneDisplay}</p><a href={lineAddFriendsUrl} target="_blank" rel="noopener noreferrer" className="text-link">{t("lineAddFriend")} <ArrowUpRight size={16} /></a></div></article>
+        <article className="contact-channel"><span className="channel-icon facebook-icon">f</span><div><p className="eyebrow">{t("facebookTitle")}</p><h2>{t("facebookTitle")}</h2><p>{t("facebookText")}</p><a href={facebookPageUrl} target="_blank" rel="noopener noreferrer" className="text-link">{t("facebookTitle")} <ArrowUpRight size={16} /></a></div></article>
       </div>
       <p className="channel-note">{t("channelsNote")}</p>
       <div className="contact-info-grid"><div className="contact-info-copy"><p className="eyebrow">TOANHOANG REAL ESTATE</p><h2>{t("infoTitle")}</h2><dl>
@@ -34,7 +35,12 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
       </dl><a className="button button-gold" href={maps} target="_blank" rel="noreferrer">{t("map")}<ArrowUpRight size={17} /></a></div>
         <a className="map-card" href={maps} target="_blank" rel="noreferrer" aria-label={t("map")}><span className="map-pin"><MapPin size={26} /></span><strong>{c("location").toLocaleUpperCase(locale)}</strong><span>{address}</span><span className="map-card-link">{t("map")}<ArrowUpRight size={17} /></span></a>
       </div>
-      <div className="social-contact" id="social-contact"><h2>{t("socialTitle")}</h2><div>{["facebook", "tiktok", "instagram", "line"].map((key) => <p key={key}>{t(key)}</p>)}</div></div>
+      <div className="social-contact" id="social-contact"><h2>{t("socialTitle")}</h2><div>
+        <a href={facebookPageUrl} target="_blank" rel="noopener noreferrer">{t("facebook")}</a>
+        <p>{t("tiktok")}</p>
+        <p>{t("instagram")}</p>
+        <a href={lineAddFriendsUrl} target="_blank" rel="noopener noreferrer">{t("line")} · {linePhoneDisplay}</a>
+      </div></div>
       <p className="contact-closing">{t("closing")}</p>
     </div></section>
   </>;

@@ -99,7 +99,7 @@
     "socialFacebook": "Updates and a way to talk with our team",
     "socialTiktok": "Videos about housing and everyday life",
     "socialInstagram": "Apartment photos and living spaces",
-    "socialLine": "Get in touch for advice tailored to you",
+    "socialLine": "LINE: 070-7595-7320 · Message us for tailored advice",
     "ctaTitle": "Your journey starts here",
     "ctaText": "Looking for a home, preparing to move to Japan, or need help with everyday life? Tell us what you need.",
     "cta": "Explore options together"
@@ -409,6 +409,8 @@
     "description": "Looking for a rental in Osaka, Kobe, Kyoto or Nara? Contact TOANHOANG REAL ESTATE for help searching. Eligibility and rental terms are confirmed for each property.",
     "lineTitle": "Message us on LINE",
     "lineText": "Contact our team directly to discuss what you need.",
+    "linePhone": "LINE phone number",
+    "lineAddFriend": "Open LINE to add us",
     "facebookTitle": "Contact us on Facebook",
     "facebookText": "Send a question and talk with us about the service you need.",
     "infoTitle": "Contact information",
@@ -425,7 +427,7 @@
     "instagram": "Instagram · Apartments and living spaces.",
     "line": "LINE · Message us for advice tailored to you.",
     "closing": "We hope to support you as you build your life in Japan.",
-    "channelsNote": "Direct links for LINE, Facebook, TikTok and Instagram were not included in the supplied materials. You can reach us by phone or email."
+    "channelsNote": "Our Facebook page is linked. To connect on LINE, open Add friends in LINE and search for 070-7595-7320."
   },
   "listing": {
     "demoNotice": "The examples below are mock data for the interface only; they are not real listings. Confirm actual price, availability, address and rental terms with our team.",

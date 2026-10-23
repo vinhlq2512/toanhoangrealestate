@@ -3,6 +3,7 @@ import { ArrowRight, Facebook, HeartHandshake, House, Instagram, Languages, Mess
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
+import { facebookPageUrl, lineAddFriendsUrl } from "@/lib/contact-links";
 
 type Feature = { title: string; text: string };
 type City = { name: string; native: string; image: string };
@@ -41,8 +42,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
           <div className="hero-details">
             <p className="hero-subtitle">{t("subtitle")}</p>
             <div className="hero-actions">
-              <Link className="button button-blue" href="/contact#social-contact"><Facebook size={18} />{c("facebook")} <ArrowRight size={18} /></Link>
-              <Link className="button button-green" href="/contact#social-contact"><MessageCircle size={18} />{c("line")} <ArrowRight size={18} /></Link>
+              <a className="button button-blue" href={facebookPageUrl} target="_blank" rel="noopener noreferrer"><Facebook size={18} />{c("facebook")} <ArrowRight size={18} /></a>
+              <a className="button button-green" href={lineAddFriendsUrl} target="_blank" rel="noopener noreferrer"><MessageCircle size={18} />{c("line")} <ArrowRight size={18} /></a>
             </div>
             <div className="hero-badges">
               {badges.map((badge, i) => { const Icon = icons[i]; return <span key={badge}><Icon size={17} />{badge}</span>; })}
@@ -86,11 +87,15 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
         <div className="container social-layout">
           <div><p className="eyebrow">{t("eyebrow")}</p><h2>{t("socialTitle")}</h2><p>{t("socialText")}</p></div>
           <div className="channel-list">
-            {channels.map(({ name, description, Icon }) => <Link href="/contact#social-contact" key={name} className={`channel-row channel-${name.toLowerCase()}`} aria-label={`${name}: ${description}`}>
-              <span className="channel-icon"><Icon size={20} /></span>
-              <span className="channel-copy"><strong>{name}</strong><small>{description}</small></span>
-              <ArrowRight size={18} />
-            </Link>)}
+            {channels.map(({ name, description, Icon }) => {
+              const href = name === "Facebook" ? facebookPageUrl : name === "LINE" ? lineAddFriendsUrl : "/contact#social-contact";
+              const external = href.startsWith("https://");
+              return <a href={href} target={external ? "_blank" : undefined} rel={external ? "noopener noreferrer" : undefined} key={name} className={`channel-row channel-${name.toLowerCase()}`} aria-label={`${name}: ${description}`}>
+                <span className="channel-icon"><Icon size={20} /></span>
+                <span className="channel-copy"><strong>{name}</strong><small>{description}</small></span>
+                <ArrowRight size={18} />
+              </a>;
+            })}
           </div>
         </div>
       </section>

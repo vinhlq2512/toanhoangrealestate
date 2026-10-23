@@ -99,7 +99,7 @@
     "socialFacebook": "Cập nhật thông tin và trao đổi cùng chúng tôi",
     "socialTiktok": "Khám phá video về nhà ở và cuộc sống",
     "socialInstagram": "Hình ảnh căn hộ và không gian sống",
-    "socialLine": "Liên hệ để được tư vấn theo nhu cầu",
+    "socialLine": "LINE: 070-7595-7320 · Nhắn tin để được tư vấn theo nhu cầu",
     "ctaTitle": "Hành trình của bạn bắt đầu từ đây",
     "ctaText": "Bạn đang tìm nhà, chuẩn bị chuyển đến Nhật Bản hay cần hỗ trợ trong cuộc sống hằng ngày? Hãy chia sẻ nhu cầu với chúng tôi.",
     "cta": "Cùng tìm lựa chọn phù hợp"
@@ -409,6 +409,8 @@
     "description": "Bạn đang tìm nhà, chuẩn bị chuyển đến Nhật Bản hay cần hỗ trợ trong cuộc sống hằng ngày? Chúng tôi luôn sẵn sàng lắng nghe và cùng bạn tìm hiểu lựa chọn phù hợp.",
     "lineTitle": "Nhắn tin qua LINE",
     "lineText": "Liên hệ trực tiếp với đội ngũ của chúng tôi để trao đổi về nhu cầu.",
+    "linePhone": "Số LINE",
+    "lineAddFriend": "Mở LINE để thêm bạn",
     "facebookTitle": "Liên hệ qua Facebook",
     "facebookText": "Gửi câu hỏi và trao đổi với chúng tôi về dịch vụ bạn quan tâm.",
     "infoTitle": "Thông tin liên hệ",
@@ -425,7 +427,7 @@
     "instagram": "Instagram · Hình ảnh căn hộ và không gian sống.",
     "line": "LINE · Nhắn tin để được tư vấn theo nhu cầu.",
     "closing": "Chúng tôi mong được đồng hành cùng bạn trên hành trình xây dựng cuộc sống tại Nhật Bản.",
-    "channelsNote": "Đường dẫn đến trang LINE, Facebook, TikTok và Instagram chưa có trong tài liệu cung cấp. Bạn có thể liên hệ qua điện thoại hoặc email."
+    "channelsNote": "Facebook đã được liên kết. Để kết nối qua LINE, hãy mở mục Thêm bạn bè trong LINE và tìm số 070-7595-7320."
   },
   "listing": {
     "demoNotice": "Dữ liệu dưới đây chỉ dùng minh họa giao diện; đây không phải tin đăng thật. Giá, tình trạng, địa chỉ và điều kiện thuê cần được xác nhận trực tiếp.",
