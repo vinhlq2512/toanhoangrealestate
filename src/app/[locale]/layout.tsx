@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: t("description"),
     alternates: {
       canonical: `/${requested}`,
-      languages: { vi: "/vi", en: "/en", zh: "/zh", "x-default": "/vi" },
+      languages: { vi: "/vi", en: "/en", zh: "/zh", ja: "/ja", "x-default": "/vi" },
     },
     openGraph: { type: "website", locale: requested, siteName: "TOANHOANG REAL ESTATE", title: t("title"), description: t("description") },
   };

@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { sampleProperties } from "@/data/mock-properties";
+import { routing } from "@/i18n/routing";
 
 const routes = ["", "/services", "/properties", "/properties/search", ...sampleProperties.map(({ slug }) => `/properties/${slug}`), "/faq", "/contact"];
-const locales = ["vi", "en", "zh"];
+const locales = routing.locales;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
