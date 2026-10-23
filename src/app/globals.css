@@ -44,6 +44,12 @@ a,
 select {
   -webkit-tap-highlight-color: transparent;
 }
+button,
+a,
+input,
+select {
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
 img {
   object-fit: cover;
 }
@@ -210,6 +216,9 @@ img {
 .mobile-nav-cta {
   display: none;
 }
+.mobile-nav-backdrop {
+  display: none;
+}
 .home-hero,
 .page-hero {
   position: relative;
@@ -344,7 +353,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.45);
   border-radius: 50%;
   color: var(--gold);
-  animation: bob 2.4s infinite;
+  animation: bob 2.8s ease-in-out infinite;
 }
 @keyframes bob {
   50% {
@@ -397,8 +406,8 @@ img {
     rgba(255, 255, 255, 0.018)
   );
   transition:
-    transform 0.2s,
-    border-color 0.2s;
+    transform 0.32s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.32s ease;
 }
 .feature-card:hover {
   transform: translateY(-3px);
@@ -494,7 +503,7 @@ img {
   background: linear-gradient(0deg, rgba(4, 10, 16, 0.9), transparent);
 }
 .city-card img {
-  transition: transform 0.35s;
+  transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .city-card:hover img {
   transform: scale(1.06);
@@ -554,10 +563,12 @@ img {
   background: rgba(255, 255, 255, 0.04);
   font-size: 13px;
   transition:
-    border-color 0.2s,
-    background 0.2s;
+    border-color 0.3s ease,
+    background 0.3s ease,
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .channel-row:hover {
+  transform: translateX(3px);
   border-color: rgba(240, 189, 98, 0.6);
   background: rgba(255, 255, 255, 0.08);
 }
@@ -800,8 +811,8 @@ img {
   border-radius: 10px;
   background: var(--panel);
   transition:
-    transform 0.2s,
-    border-color 0.2s;
+    transform 0.32s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.32s ease;
 }
 .property-card:hover {
   transform: translateY(-3px);
@@ -813,7 +824,7 @@ img {
   overflow: hidden;
 }
 .property-image img {
-  transition: transform 0.35s;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .property-card:hover .property-image img {
   transform: scale(1.04);
@@ -2748,6 +2759,11 @@ img {
   z-index: 0;
   overflow: hidden;
 }
+.home-hero .hero-media picture {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
 .home-hero .hero-media .cover-image {
   z-index: 0;
   object-position: center 52%;
@@ -3119,6 +3135,44 @@ img {
   position: relative;
   z-index: 1;
 }
+
+[data-scroll-reveal="true"] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+[data-scroll-reveal="true"][data-scroll-revealed="true"] {
+  opacity: 1;
+  transform: translateY(0);
+  will-change: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+  }
+
+  [data-scroll-reveal="true"] {
+    opacity: 1;
+    transform: none;
+    will-change: auto;
+  }
+}
+
 .welcome-grid,
 .areas-section > .container,
 .social-layout {
@@ -3131,7 +3185,137 @@ img {
   .social-section {
     --section-fade-size: 135px;
   }
+  .areas-section .city-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .areas-section .city-card {
+    height: auto;
+    aspect-ratio: 1;
+  }
   .site-footer::before {
     --footer-fade-size: 145px;
+  }
+}
+
+@media (max-width: 900px) {
+  .primary-nav,
+  .primary-nav.is-open {
+    position: fixed;
+    top: 82px;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    display: flex;
+    width: min(80vw, 360px);
+    height: calc(100dvh - 82px);
+    padding: 22px 20px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    overflow-y: auto;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 16px 0 0;
+    background: rgba(8, 19, 31, 0.66);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    box-shadow: -16px 16px 42px rgba(0, 0, 0, 0.25);
+    visibility: hidden;
+    transform: translateX(102%);
+    transition: transform 0.28s ease, visibility 0.28s ease;
+    z-index: 2;
+  }
+  .primary-nav.is-open {
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .primary-nav .nav-link {
+    padding: 14px 4px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateX(10px);
+    transition:
+      opacity 0.24s ease,
+      transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .primary-nav.is-open .nav-link {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .primary-nav.is-open .nav-link:nth-child(1) { transition-delay: 0.04s; }
+  .primary-nav.is-open .nav-link:nth-child(2) { transition-delay: 0.08s; }
+  .primary-nav.is-open .nav-link:nth-child(3) { transition-delay: 0.12s; }
+  .primary-nav.is-open .nav-link:nth-child(4) { transition-delay: 0.16s; }
+  .primary-nav.is-open .nav-link:nth-child(5) { transition-delay: 0.2s; }
+  .menu-toggle {
+    position: relative;
+    z-index: 3;
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    cursor: pointer;
+  }
+  .menu-toggle-icon {
+    display: grid;
+    place-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  .menu-toggle-icon svg {
+    grid-area: 1 / 1;
+    transition:
+      opacity 0.2s ease,
+      transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .menu-icon-open {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+  .menu-icon-close {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.65);
+  }
+  .menu-toggle.is-open .menu-icon-open {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.65);
+  }
+  .menu-toggle.is-open .menu-icon-close {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+  .mobile-nav-backdrop {
+    display: block;
+    position: fixed;
+    inset: 82px 0 0;
+    z-index: 1;
+    border: 0;
+    background: rgba(2, 8, 15, 0.2);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.28s ease,
+      visibility 0s linear 0.28s;
+  }
+  .mobile-nav-backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    transition:
+      opacity 0.28s ease,
+      visibility 0s;
+  }
+}
+
+@media (max-width: 720px) {
+  .primary-nav,
+  .primary-nav.is-open {
+    top: 72px;
+    height: calc(100dvh - 72px);
+  }
+  .mobile-nav-backdrop {
+    top: 72px;
   }
 }

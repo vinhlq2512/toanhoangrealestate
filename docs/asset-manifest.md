@@ -15,7 +15,7 @@ Các tệp nguồn được giữ nguyên trong thư mục ban đầu. Bản sao
 | `TRANG CHỦ /3d85ea4d-303d-46d9-8135-c49f4616b039.png` | `public/images/services/apartment-video-tour.png` | Apartment video tour setup | Trang chủ |
 | `TRANG CHỦ /bab8ba7b-463c-4aea-bb16-3fd683451ac6.png` | `public/images/services/multilingual-housing-consultation.png` | Multilingual housing consultation | Trang chủ |
 | `TRANG CHỦ /6e735b46-a1fc-4329-8a8c-7718778700bc.png` | `public/images/locations/osaka-castle-spring.png` | Osaka castle in spring | Trang chủ |
-| `TRANG CHỦ /c8c7aeb1-f671-448a-903f-5ff632679419.png` | `public/images/locations/kyoto-pagoda-spring.png` | Kyoto pagoda among cherry blossoms | Trang chủ |
+| `TRANG CHỦ /c8c7aeb1-f671-448a-903f-5ff632679419.png` | `public/images/locations/himeji-castle-sakura.png` | Himeji Castle among cherry blossoms | Trang chủ |
 | `DỊCH VỤ CHÚNG TÔI /Chuyển nhà dưới tán hoa anh đào.png` | `public/images/services/moving-day-japan.png` | Moving boxes and delivery truck in Japan | Dịch vụ |
 | `DỊCH VỤ CHÚNG TÔI /Hoàng hôn nơi sảnh đến sân bay.png` | `public/images/services/osaka-airport-arrivals.png` | Airport arrivals hall at sunset | Dịch vụ |
 | `DỊCH VỤ CHÚNG TÔI /Phòng khách ấm áp giữa hoàng hôn đô thị.png` | `public/images/services/warm-apartment-sunset.png` | Warm apartment at sunset | Dịch vụ; chi tiết mẫu Sakuragawa |

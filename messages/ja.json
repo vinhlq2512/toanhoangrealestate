@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "TOANHOANG REAL ESTATE｜日本での住まいと暮らし",
-    "description": "大阪の多言語対応チームが、お部屋探しから日本での新生活までサポートします。"
+    "title": "大阪の賃貸・外国人の部屋探しをサポート｜TOANHOANG REAL ESTATE",
+    "description": "大阪や関西で賃貸住宅をお探しの方へ。外国人の方のお部屋探しをサポートします。入居条件や賃貸条件は物件ごとに異なります。"
   },
   "common": {
     "brand": "TOANHOANG REAL ESTATE",
@@ -53,9 +53,9 @@
     "cities": [
       { "name": "Osaka", "native": "大阪", "image": "/images/locations/osaka-castle-spring.png" },
       { "name": "Kobe", "native": "神戸", "image": "/images/locations/kobe-waterfront.png" },
-      { "name": "Kyoto", "native": "京都", "image": "/images/locations/kyoto-pagoda-spring.png" },
+      { "name": "Kyoto", "native": "京都", "image": "/images/locations/fuji-sunset-pagoda.png" },
       { "name": "Nara", "native": "奈良", "image": "/images/locations/nara-autumn-deer.png" },
-      { "name": "Himeji", "native": "姫路", "image": "/images/locations/fuji-sunset-pagoda.png" },
+      { "name": "Himeji", "native": "姫路", "image": "/images/locations/himeji-castle-sakura.png" },
       { "name": "Tokyo", "native": "東京", "image": "/images/locations/tokyo-tower-sakura.png" }
     ],
     "socialTitle": "最新情報をチェック",
@@ -116,8 +116,8 @@
   },
   "properties": {
     "eyebrow": "03 · 住まい・不動産",
-    "title": "日本での住まい探し",
-    "description": "手頃な賃貸住宅や外国籍の方向けの住まいから、事業用物件や投資用不動産まで、ご希望とご予算に合う選択肢を一緒に探します。",
+    "title": "大阪・関西で賃貸住宅を探す｜外国人の部屋探しをサポート",
+    "description": "大阪・神戸・京都・奈良で賃貸住宅をお探しの方へ。外国人の方のお部屋探しをお手伝いします。入居条件や賃貸条件は物件ごとに異なります。",
     "rentalTitle": "賃貸住宅の制度・サービス",
     "rentalText": "学生、社会人、家族、海外出身の方に向けた日本の住まいをご紹介します。",
     "rentalCta": "賃貸物件を見る",
@@ -159,9 +159,9 @@
   },
   "faq": {
     "eyebrow": "04 · よくある質問",
-    "title": "よくある質問",
+    "title": "日本の賃貸FAQ｜費用・申込み・外国人の部屋探し",
     "subtitle": "日本で部屋を借りるときの基礎知識",
-    "description": "日本で部屋を借りる際の流れや費用、知っておきたいポイントをご案内します。",
+    "description": "日本で部屋を借りるときの申込み書類、保証会社、礼金・敷金、初期費用などを解説します。条件や費用は物件ごとに異なります。",
     "contactTitle": "ほかにご質問はありますか？",
     "contactText": "費用についての質問や、ご予算に合う住まい探しはお気軽にご相談ください。",
     "groups": [
@@ -210,8 +210,8 @@
   },
   "contact": {
     "eyebrow": "05 · お問い合わせ",
-    "title": "ご希望をお聞かせください",
-    "description": "お部屋探し、日本への引っ越し準備、日常生活のサポートなど、ご希望を伺いながら適切な選択肢を一緒に検討します。",
+    "title": "大阪・関西の賃貸相談・お問い合わせ",
+    "description": "大阪・神戸・京都・奈良で賃貸住宅をお探しですか。外国人の方のお部屋探しをお手伝いします。入居条件は物件ごとにご確認ください。",
     "lineTitle": "LINEで相談する",
     "lineText": "ご希望について、スタッフへ直接ご相談いただけます。",
     "facebookTitle": "Facebookでお問い合わせ",

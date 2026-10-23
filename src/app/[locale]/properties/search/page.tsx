@@ -23,7 +23,7 @@ function price(locale: Locale, amount: number) {
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "listing" });
-  return pageMetadata(locale, "/properties/search", t("title"), t("description"));
+  return { ...pageMetadata(locale, "/properties/search", t("title"), t("description")), robots: { index: false, follow: true } };
 }
 
 export default async function PropertySearchPage({ params, searchParams }: { params: Promise<{ locale: Locale }>; searchParams: Promise<SearchParams> }) {

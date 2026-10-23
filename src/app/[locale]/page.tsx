@@ -27,7 +27,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
     <>
       <section className="home-hero">
         <div className="hero-media">
-          <Image src="/images/backgrounds/home-hero-sakura-sunset.png" alt="Mount Fuji, a Japanese castle, and cherry blossoms at sunset" fill priority quality={90} sizes="100vw" className="cover-image" />
+          <picture>
+            <source media="(min-width: 721px)" srcSet="/images/backgrounds/home-hero-sakura-sunset-landscape.png" />
+            <Image src="/images/backgrounds/home-hero-sakura-sunset.png" alt="Mount Fuji, a Japanese castle, and cherry blossoms at sunset" fill priority quality={90} sizes="100vw" className="cover-image" />
+          </picture>
           <div className="hero-shade" />
         </div>
         <div className="container hero-content">

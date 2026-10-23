@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Toan Hoang Real Estate | Homes and life in Japan",
-    "description": "Find a home, move to Japan and settle in with support from our multilingual team in Osaka."
+    "title": "Apartments for Rent in Osaka for International Residents",
+    "description": "Looking for a rental in Osaka or nearby Kansai cities? TOANHOANG REAL ESTATE helps international residents find a home, with rental eligibility and terms confirmed for each property."
   },
   "common": {
     "brand": "TOANHOANG REAL ESTATE",
@@ -76,7 +76,7 @@
       {
         "name": "Kyoto",
         "native": "京都",
-        "image": "/images/locations/kyoto-pagoda-spring.png"
+        "image": "/images/locations/fuji-sunset-pagoda.png"
       },
       {
         "name": "Nara",
@@ -86,7 +86,7 @@
       {
         "name": "Himeji",
         "native": "姫路",
-        "image": "/images/locations/fuji-sunset-pagoda.png"
+        "image": "/images/locations/himeji-castle-sakura.png"
       },
       {
         "name": "Tokyo",
@@ -177,8 +177,8 @@
   },
   "properties": {
     "eyebrow": "03 · HOMES & REAL ESTATE",
-    "title": "Explore housing options in Japan",
-    "description": "From affordable rentals and homes for international residents to business spaces and investment property, we help you explore options for your needs and budget.",
+    "title": "Rentals in Osaka and Kansai for International Residents",
+    "description": "Explore rental housing options in Osaka, Kobe, Kyoto and Nara. We help international residents search for a home; eligibility and rental terms vary by property.",
     "rentalTitle": "Rental housing systems",
     "rentalText": "Housing options for students, professionals, families and international residents in Japan.",
     "rentalCta": "Explore rentals",
@@ -285,9 +285,9 @@
   },
   "faq": {
     "eyebrow": "04 · FAQ",
-    "title": "Frequently asked questions",
+    "title": "Renting in Japan: Costs and Application FAQ",
     "subtitle": "A guide to renting in Japan",
-    "description": "Understand the basics of the rental process, costs and other considerations when renting in Japan.",
+    "description": "Learn about renting in Japan, including application documents, guarantor companies, key money and move-in costs. Property requirements and fees vary.",
     "contactTitle": "Have another question?",
     "contactText": "Contact us if you have questions about fees or want help finding an option for your budget.",
     "groups": [
@@ -405,8 +405,8 @@
   },
   "contact": {
     "eyebrow": "05 · CONTACT",
-    "title": "Tell us what you need",
-    "description": "Looking for a home, preparing to move to Japan or need help with everyday life? We are ready to listen and explore suitable options with you.",
+    "title": "Contact Us About Rentals in Osaka and Kansai",
+    "description": "Looking for a rental in Osaka, Kobe, Kyoto or Nara? Contact TOANHOANG REAL ESTATE for help searching. Eligibility and rental terms are confirmed for each property.",
     "lineTitle": "Message us on LINE",
     "lineText": "Contact our team directly to discuss what you need.",
     "facebookTitle": "Contact us on Facebook",

@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
-import { sampleProperties } from "@/data/mock-properties";
 import { routing } from "@/i18n/routing";
 
-const routes = ["", "/services", "/properties", "/properties/search", ...sampleProperties.map(({ slug }) => `/properties/${slug}`), "/faq", "/contact"];
+const routes = ["", "/services", "/properties", "/faq", "/contact"];
 const locales = routing.locales;
 
 export default function sitemap(): MetadataRoute.Sitemap {

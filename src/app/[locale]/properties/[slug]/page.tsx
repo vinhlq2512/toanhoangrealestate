@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
   const property = sampleProperties.find((item) => item.slug === slug);
   if (!property) return {};
   const t = await getTranslations({ locale, namespace: "listing" });
-  return pageMetadata(locale, `/properties/${slug}`, localize(property.title, locale), t("sampleDetailNotice"));
+  return { ...pageMetadata(locale, `/properties/${slug}`, localize(property.title, locale), t("sampleDetailNotice")), robots: { index: false, follow: true } };
 }
 
 export default async function PropertyDetailPage({ params }: { params: Promise<{ locale: Locale; slug: string }> }) {
