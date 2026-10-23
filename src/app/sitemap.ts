@@ -1,0 +1,16 @@
+import type { MetadataRoute } from "next";
+import { sampleProperties } from "@/data/mock-properties";
+
+const routes = ["", "/services", "/properties", "/properties/search", ...sampleProperties.map(({ slug }) => `/properties/${slug}`), "/faq", "/contact"];
+const locales = ["vi", "en", "zh"];
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
+  if (!siteUrl) return [];
+  const now = new Date();
+  return locales.flatMap((locale) => routes.map((route) => ({
+    url: `${siteUrl}/${locale}${route}`,
+    lastModified: now,
+    alternates: { languages: Object.fromEntries(locales.map((language) => [language, `${siteUrl}/${language}${route}`])) },
+  })));
+}

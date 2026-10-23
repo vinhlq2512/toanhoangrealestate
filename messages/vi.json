@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Toàn Hoàng Real Estate | Nhà ở và cuộc sống tại Nhật Bản",
+    "description": "Đồng hành cùng bạn tìm nhà, chuyển đến và ổn định cuộc sống tại Nhật Bản. Tư vấn đa ngôn ngữ từ Osaka."
+  },
+  "common": {
+    "brand": "TOANHOANG REAL ESTATE",
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "properties": "Nhà & BĐS",
+    "apartments": "Căn hộ",
+    "areas": "Khu vực",
+    "connect": "Kết nối với chúng tôi",
+    "footerDescription": "Hỗ trợ người nước ngoài tìm nhà và ổn định cuộc sống tại Nhật Bản.",
+    "faq": "Câu hỏi thường gặp",
+    "contact": "Liên hệ",
+    "learnMore": "Tìm hiểu thêm",
+    "viewAll": "Xem tất cả",
+    "contactUs": "Liên hệ với chúng tôi",
+    "line": "Nhắn tin qua LINE",
+    "facebook": "Liên hệ qua Facebook",
+    "location": "Osaka, Nhật Bản",
+    "menu": "Mở menu",
+    "close": "Đóng menu",
+    "language": "Ngôn ngữ",
+    "copyright": "© 2026 TOANHOANG REAL ESTATE. Bảo lưu mọi quyền.",
+    "madeFor": "Your Home in Japan"
+  },
+  "nav": {
+    "tagline": "Your home in Japan"
+  },
+  "home": {
+    "eyebrow": "TOANHOANG REAL ESTATE",
+    "title": "Đồng hành cùng bạn trên hành trình <highlight>sống tại Nhật Bản</highlight>",
+    "highlight": "Sống tại Nhật Bản",
+    "subtitle": "Tìm ngôi nhà phù hợp, bắt đầu cuộc sống mới tại Nhật Bản.",
+    "description": "TOANHOANG REAL ESTATE cung cấp dịch vụ bất động sản và hỗ trợ đời sống dành cho người nước ngoài tại Nhật Bản. Từ tìm kiếm căn hộ đến các nhu cầu thiết yếu, chúng tôi luôn sẵn sàng lắng nghe và đồng hành cùng bạn.",
+    "support": "Hỗ trợ người nước ngoài",
+    "osaka": "Nhiều lựa chọn tại Osaka",
+    "free": "Tư vấn theo nhu cầu",
+    "languages": "Hỗ trợ đa ngôn ngữ",
+    "introTitle": "Không chỉ là một nơi để ở",
+    "introText": "Tìm được một ngôi nhà phù hợp chỉ là bước khởi đầu. Chúng tôi đồng hành cùng bạn từ lúc tìm nhà, làm thủ tục cho đến khi ổn định cuộc sống tại Nhật Bản.",
+    "introCta": "Tìm căn hộ phù hợp với bạn",
+    "features": [
+      {
+        "title": "Nhà ở phù hợp",
+        "text": "Tìm hiểu nhiều lựa chọn căn hộ theo nhu cầu và ngân sách."
+      },
+      {
+        "title": "Hỗ trợ thủ tục",
+        "text": "Hướng dẫn giấy tờ, đăng ký và các thủ tục cần thiết."
+      },
+      {
+        "title": "Video thực tế",
+        "text": "Xem trước căn hộ qua video và hình ảnh sẵn có."
+      },
+      {
+        "title": "Đồng hành đa ngôn ngữ",
+        "text": "Trao đổi thuận tiện bằng tiếng Việt và các ngôn ngữ hỗ trợ."
+      }
+    ],
+    "areasTitle": "Khu vực nổi bật tại Nhật Bản",
+    "areasText": "Khám phá những khu vực được nhiều người nước ngoài lựa chọn.",
+    "cities": [
+      {
+        "name": "Osaka",
+        "native": "大阪",
+        "image": "/images/locations/osaka-castle-spring.png"
+      },
+      {
+        "name": "Kobe",
+        "native": "神戸",
+        "image": "/images/locations/kobe-waterfront.png"
+      },
+      {
+        "name": "Kyoto",
+        "native": "京都",
+        "image": "/images/locations/kyoto-pagoda-spring.png"
+      },
+      {
+        "name": "Nara",
+        "native": "奈良",
+        "image": "/images/locations/nara-autumn-deer.png"
+      },
+      {
+        "name": "Himeji",
+        "native": "姫路",
+        "image": "/images/locations/fuji-sunset-pagoda.png"
+      },
+      {
+        "name": "Tokyo",
+        "native": "東京",
+        "image": "/images/locations/tokyo-tower-sakura.png"
+      }
+    ],
+    "socialTitle": "Kết nối với chúng tôi",
+    "socialText": "Theo dõi các kênh của chúng tôi để cập nhật thông tin hữu ích về cuộc sống tại Nhật Bản.",
+    "socialFacebook": "Cập nhật thông tin và trao đổi cùng chúng tôi",
+    "socialTiktok": "Khám phá video về nhà ở và cuộc sống",
+    "socialInstagram": "Hình ảnh căn hộ và không gian sống",
+    "socialLine": "Liên hệ để được tư vấn theo nhu cầu",
+    "ctaTitle": "Hành trình của bạn bắt đầu từ đây",
+    "ctaText": "Bạn đang tìm nhà, chuẩn bị chuyển đến Nhật Bản hay cần hỗ trợ trong cuộc sống hằng ngày? Hãy chia sẻ nhu cầu với chúng tôi.",
+    "cta": "Cùng tìm lựa chọn phù hợp"
+  },
+  "services": {
+    "eyebrow": "02 · DỊCH VỤ CỦA CHÚNG TÔI",
+    "title": "Những hỗ trợ thiết thực cho cuộc sống tại Nhật Bản",
+    "description": "TOANHOANG REAL ESTATE mang đến nhiều dịch vụ giúp bạn tìm nơi ở, chuẩn bị chuyển nhà và giải quyết các nhu cầu thiết yếu trong cuộc sống.",
+    "contactTitle": "Kết nối với chúng tôi",
+    "contactText": "Chúng tôi mong được đồng hành cùng bạn trên hành trình xây dựng cuộc sống tại Nhật Bản.",
+    "items": [
+      {
+        "title": "Dịch vụ bất động sản",
+        "description": "Hỗ trợ tìm kiếm bất động sản phù hợp với nhu cầu, khu vực và ngân sách của bạn.",
+        "points": [
+          "Thuê căn hộ và nhà ở",
+          "Tư vấn mua bán bất động sản",
+          "Tìm kiếm văn phòng làm việc",
+          "Tìm mặt bằng kinh doanh, cửa hàng và nhà hàng",
+          "Hỗ trợ tìm kiếm tại các khu vực trên toàn Nhật Bản"
+        ],
+        "image": "/images/services/warm-apartment-sunset.png",
+        "cta": "Tư vấn bất động sản"
+      },
+      {
+        "title": "Đăng ký điện, nước, gas và Internet",
+        "description": "Hỗ trợ bạn chuẩn bị các dịch vụ thiết yếu khi chuyển đến nhà mới.",
+        "points": [
+          "Đăng ký điện",
+          "Đăng ký nước",
+          "Đăng ký gas",
+          "Đăng ký Internet và Wi-Fi"
+        ],
+        "image": "/images/services/apartment-kitchen-gas.png",
+        "cta": "Tìm hiểu dịch vụ"
+      },
+      {
+        "title": "Đồ cũ, nội thất và vận chuyển",
+        "description": "Giúp bạn chuẩn bị đồ dùng cần thiết với những lựa chọn phù hợp ngân sách.",
+        "points": [
+          "Tìm mua nội thất cũ",
+          "Tìm đồ dùng gia đình giá hợp lý",
+          "Hỗ trợ vận chuyển đồ đạc",
+          "Hỗ trợ giao hàng và lắp đặt khi có dịch vụ"
+        ],
+        "image": "/images/services/moving-day-japan.png",
+        "cta": "Tư vấn vận chuyển và đồ cũ"
+      },
+      {
+        "title": "Hỗ trợ khi đến Nhật Bản",
+        "description": "Hỗ trợ bạn chuẩn bị cho những bước đầu tiên khi đến Nhật.",
+        "points": [
+          "Đón sân bay",
+          "Hỗ trợ đăng ký SIM điện thoại",
+          "Hỗ trợ chuẩn bị Wi-Fi",
+          "Hướng dẫn đăng ký tài khoản ngân hàng theo điều kiện áp dụng"
+        ],
+        "image": "/images/services/osaka-airport-arrivals.png",
+        "cta": "Tìm hiểu dịch vụ"
+      },
+      {
+        "title": "Hỗ trợ cuộc sống hằng ngày",
+        "description": "Cung cấp thông tin và hướng dẫn giúp bạn thuận tiện hơn trong quá trình sinh sống tại Nhật Bản.",
+        "points": [
+          "Tìm hiểu các dịch vụ cần thiết",
+          "Trao đổi và tư vấn theo nhu cầu",
+          "Kết nối với các dịch vụ phù hợp khi có thể"
+        ],
+        "image": "/images/services/daily-life-support-japan.png",
+        "cta": "Trao đổi với chúng tôi"
+      }
+    ],
+    "ctaTitle": "Bạn cần hỗ trợ một vấn đề cụ thể?",
+    "ctaText": "Hãy chia sẻ nhu cầu của bạn. Chúng tôi sẽ cùng bạn tìm hiểu những lựa chọn và hướng hỗ trợ phù hợp."
+  },
+  "properties": {
+    "eyebrow": "03 · HỆ THỐNG NHÀ & BẤT ĐỘNG SẢN",
+    "title": "Khám phá các lựa chọn bất động sản tại Nhật Bản",
+    "description": "Từ căn hộ giá rẻ, nhà ở dành cho người nước ngoài đến mặt bằng kinh doanh và bất động sản đầu tư, chúng tôi hỗ trợ bạn tìm hiểu lựa chọn phù hợp với nhu cầu và ngân sách.",
+    "rentalTitle": "Hệ thống nhà cho thuê",
+    "rentalText": "Đa dạng loại hình nhà ở dành cho sinh viên, người đi làm, gia đình và người nước ngoài đang sinh sống tại Nhật Bản.",
+    "rentalCta": "Tìm nhà cho thuê",
+    "rentals": [
+      {
+        "title": "Nhà giá rẻ",
+        "subtitle": "Cheap Rentals",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Những lựa chọn nhà ở với mức giá hợp lý, phù hợp với ngân sách tiết kiệm."
+      },
+      {
+        "title": "Nhà SHI",
+        "subtitle": "市営住宅・府営住宅",
+        "image": "/images/properties/village-house-apartment.png",
+        "text": "Tìm hiểu nhà ở công do thành phố hoặc tỉnh quản lý, tùy điều kiện đăng ký và đối tượng xét duyệt."
+      },
+      {
+        "title": "UR Housing",
+        "subtitle": "UR賃貸住宅",
+        "image": "/images/properties/ur-apartment-sakura.png",
+        "text": "Nhà ở thuộc hệ thống UR với điều kiện thuê và yêu cầu đăng ký theo quy định."
+      },
+      {
+        "title": "Village House",
+        "subtitle": "Village House",
+        "image": "/images/properties/village-house-apartment.png",
+        "text": "Các lựa chọn căn hộ với nhiều loại phòng và mức giá khác nhau."
+      },
+      {
+        "title": "Leopalace21",
+        "subtitle": "Leopalace21",
+        "image": "/images/properties/leopalace-studio-apartment.png",
+        "text": "Căn hộ cho thuê với nhiều lựa chọn cho nhu cầu sinh sống khác nhau."
+      },
+      {
+        "title": "SABAI",
+        "subtitle": "SABAI",
+        "image": "/images/properties/sabai-apartment.png",
+        "text": "Tìm hiểu các lựa chọn nhà ở thuộc hệ thống SABAI."
+      },
+      {
+        "title": "MITAKA",
+        "subtitle": "MITAKA",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Tìm hiểu các lựa chọn nhà ở thuộc hệ thống MITAKA."
+      },
+      {
+        "title": "LEALEA",
+        "subtitle": "LEALEA",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Tìm hiểu các lựa chọn nhà ở thuộc hệ thống LEALEA."
+      }
+    ],
+    "businessTitle": "Mặt bằng kinh doanh",
+    "businessText": "Tìm kiếm không gian phù hợp để bắt đầu hoặc mở rộng hoạt động kinh doanh tại Nhật Bản.",
+    "business": [
+      "Văn phòng làm việc",
+      "Mặt bằng mở cửa hàng",
+      "Mặt bằng nhà hàng, quán ăn và quán cà phê",
+      "Mặt bằng kinh doanh dịch vụ",
+      "Mặt bằng thương mại",
+      "Không gian kinh doanh theo nhu cầu riêng"
+    ],
+    "businessImage": "/images/locations/kobe-city-at-night.png",
+    "businessCta": "Tìm mặt bằng kinh doanh",
+    "saleTitle": "Bất động sản mua bán",
+    "saleText": "Khám phá các loại hình bất động sản phục vụ nhu cầu mua nhà, sở hữu tài sản hoặc đầu tư tại Nhật Bản.",
+    "sale": [
+      {
+        "title": "Tòa nhà cũ",
+        "image": "/images/properties/japanese-rental-apartment.png"
+      },
+      {
+        "title": "Chung cư",
+        "image": "/images/properties/village-house-apartment.png"
+      },
+      {
+        "title": "Nguyên tòa chung cư",
+        "image": "/images/properties/ur-apartment-sakura.png"
+      },
+      {
+        "title": "Nhà riêng",
+        "image": "/images/properties/sabai-apartment.png"
+      },
+      {
+        "title": "Đất",
+        "image": "/images/locations/fuji-sunset-pagoda.png"
+      },
+      {
+        "title": "Tòa nhà thương mại và bất động sản đầu tư",
+        "image": "/images/locations/kobe-city-at-night.png"
+      }
+    ],
+    "saleCta": "Tìm bất động sản mua bán",
+    "searchLabel": "Bạn đang tìm loại hình nào?",
+    "searchPlaceholder": "Ví dụ: căn hộ Osaka, nhà giá rẻ...",
+    "searchButton": "Khám phá lựa chọn",
+    "results": "Danh mục phù hợp với từ khóa",
+    "noResults": "Chưa có danh mục phù hợp với từ khóa này. Hãy liên hệ để trao đổi nhu cầu.",
+    "clearSearch": "Xóa tìm kiếm",
+    "ctaTitle": "Chưa tìm được bất động sản phù hợp?",
+    "ctaText": "Hãy cho chúng tôi biết khu vực mong muốn, ngân sách và mục đích sử dụng. Chúng tôi sẽ hỗ trợ tìm hiểu những lựa chọn phù hợp trong phạm vi nguồn bất động sản có thể tiếp cận.",
+    "disclaimer": "Thông tin về giá, tình trạng bất động sản, điều kiện thuê và mua bán cần được xác nhận tại thời điểm tư vấn. Một số loại hình nhà ở có điều kiện đăng ký hoặc xét duyệt riêng."
+  },
+  "faq": {
+    "eyebrow": "04 · FAQ",
+    "title": "Câu hỏi thường gặp",
+    "subtitle": "Kiến thức thuê nhà tại Nhật Bản",
+    "description": "Những thông tin cơ bản giúp bạn hiểu hơn về quy trình, chi phí và các vấn đề liên quan khi thuê nhà tại Nhật Bản.",
+    "contactTitle": "Bạn còn câu hỏi khác?",
+    "contactText": "Nếu bạn chưa hiểu các khoản phí hoặc muốn biết lựa chọn nào phù hợp với ngân sách, hãy liên hệ với chúng tôi.",
+    "groups": [
+      {
+        "title": "Các thuật ngữ cơ bản khi thuê nhà",
+        "subtitle": "Tìm hiểu những thuật ngữ thường xuất hiện trong hợp đồng.",
+        "items": [
+          {
+            "question": "Công ty bảo lãnh là gì?",
+            "japanese": "保証会社（ほしょうがいしゃ）",
+            "answer": "Đây là đơn vị bảo đảm nghĩa vụ thanh toán tiền thuê theo hợp đồng bảo lãnh. Nếu người thuê không thanh toán, công ty có thể trả thay trong phạm vi bảo lãnh rồi yêu cầu người thuê hoàn trả. Người thuê thường trả phí ban đầu và có thể có phí gia hạn. Đây không phải dịch vụ trả tiền thuê miễn phí."
+          },
+          {
+            "question": "Bảo hiểm nhà thuê là gì?",
+            "japanese": "火災保険（かさいほけん）",
+            "answer": "Đây là bảo hiểm thường được yêu cầu khi ký hợp đồng thuê tại Nhật. Tùy gói, phạm vi có thể gồm thiệt hại do hỏa hoạn, rò rỉ nước hoặc trách nhiệm bồi thường. Hãy kiểm tra phạm vi, thời hạn và phí của hợp đồng cụ thể."
+          },
+          {
+            "question": "Chi phí lễ là gì?",
+            "japanese": "礼金（れいきん）",
+            "answer": "Đây là khoản tiền người thuê trả cho chủ nhà theo điều kiện thuê. Khoản này thường không được hoàn lại khi chuyển đi và chỉ phát sinh nếu căn hộ quy định."
+          },
+          {
+            "question": "Chi phí cọc là gì?",
+            "japanese": "敷金（しききん）",
+            "answer": "Tiền cọc được nộp theo hợp đồng và có thể được hoàn lại sau khi chuyển đi, sau khi khấu trừ các khoản hợp lệ như tiền thuê còn thiếu hoặc chi phí sửa chữa thuộc trách nhiệm người thuê."
+          },
+          {
+            "question": "Công ty quản lý là gì?",
+            "japanese": "管理会社（かんりがいしゃ）",
+            "answer": "Công ty quản lý do chủ nhà giao phụ trách các công việc như tiếp nhận báo cáo sự cố, hỗ trợ vấn đề của tòa nhà và phối hợp bảo trì. Công ty quản lý không nhất thiết là chủ sở hữu và phạm vi công việc tùy hợp đồng."
+          },
+          {
+            "question": "Phí môi giới là gì?",
+            "japanese": "仲介手数料（ちゅうかいてすうりょう）",
+            "answer": "Đây là phí trả cho công ty bất động sản thực hiện môi giới, giới thiệu căn hộ và hỗ trợ giao dịch thuê. Mức phí tùy thỏa thuận, loại giao dịch và quy định áp dụng; không nên mặc định mọi căn hộ có cùng mức phí."
+          }
+        ]
+      },
+      {
+        "title": "Các bên liên quan khi thuê nhà",
+        "subtitle": "Hiểu rõ vai trò của từng bên trong quá trình thuê.",
+        "items": [
+          {
+            "question": "Có những bên nào liên quan khi thuê nhà?",
+            "japanese": "",
+            "answer": "Thường có năm vai trò: chủ nhà (貸主・大家) cho thuê bất động sản; công ty quản lý (管理会社) quản lý tòa nhà; công ty môi giới (仲介会社) tìm nhà và hỗ trợ giao dịch; công ty bảo lãnh (保証会社) bảo lãnh nghĩa vụ thanh toán; công ty bảo hiểm (保険会社) cung cấp bảo hiểm. Một doanh nghiệp có thể đảm nhiệm nhiều vai trò, tùy cơ cấu và hợp đồng."
+          }
+        ]
+      },
+      {
+        "title": "Chi phí thuê nhà",
+        "subtitle": "Những câu hỏi thường gặp về các khoản phí.",
+        "items": [
+          {
+            "question": "Chi phí đầu vào thường bao gồm những gì?",
+            "japanese": "初期費用（しょきひよう）",
+            "answer": "Có thể gồm tiền thuê trả trước, phí quản lý, tiền cọc (敷金), tiền lễ (礼金), phí môi giới, phí bảo lãnh, bảo hiểm, thay ổ khóa, vệ sinh và các khoản khác theo điều kiện căn hộ. Không phải căn hộ nào cũng có tất cả các khoản này."
+          },
+          {
+            "question": "Chi phí đầu vào có phải lúc nào cũng bằng 4–6 tháng tiền nhà không?",
+            "japanese": "",
+            "answer": "Không. Mức 4–6 tháng chỉ là tham khảo ở một số trường hợp, không phải quy định cố định. Ưu đãi hoặc các khoản phí bắt buộc có thể làm tổng tiền thấp hoặc cao hơn. Hãy yêu cầu bảng dự toán chi tiết trước khi ký."
+          },
+          {
+            "question": "Tiền cọc và tiền lễ khác nhau như thế nào?",
+            "japanese": "敷金・礼金",
+            "answer": "Tiền cọc có thể được hoàn lại sau khi trừ các khoản hợp lệ theo hợp đồng. Tiền lễ thường không được hoàn lại và chỉ phải trả nếu căn hộ quy định khoản này."
+          },
+          {
+            "question": "Phí công ty bảo lãnh có phải tiền cọc không?",
+            "japanese": "",
+            "answer": "Không. Tiền cọc nộp theo hợp đồng thuê; phí bảo lãnh trả cho dịch vụ bảo đảm nghĩa vụ thanh toán. Phí bảo lãnh thường không được hoàn lại chỉ vì người thuê đã trả đủ tiền thuê. Hãy kiểm tra cả phí định kỳ trong hợp đồng bảo lãnh."
+          },
+          {
+            "question": "Phí quản lý có nằm trong tiền thuê nhà không?",
+            "japanese": "",
+            "answer": "Tùy căn hộ. Có nơi đã gộp phí quản lý vào giá thuê, có nơi thu riêng. Khi so sánh, hãy xem tổng chi phí hàng tháng gồm tiền thuê, phí quản lý và khoản định kỳ khác."
+          }
+        ]
+      },
+      {
+        "title": "Hồ sơ và hợp đồng thuê nhà",
+        "subtitle": "Các câu hỏi về giấy tờ và quy trình ký hợp đồng.",
+        "items": [
+          {
+            "question": "Người nước ngoài cần chuẩn bị giấy tờ gì?",
+            "japanese": "",
+            "answer": "Tùy trường hợp, hồ sơ có thể gồm thẻ cư trú (在留カード), hộ chiếu (パスポート), giấy tờ chứng minh thu nhập hoặc công việc, thẻ sinh viên hoặc giấy xác nhận đang học và các thông tin bổ sung theo yêu cầu. Hồ sơ thực tế phụ thuộc tình trạng cư trú và căn hộ."
+          },
+          {
+            "question": "Nộp đơn xin thuê nhà có nghĩa là đã thuê được nhà chưa?",
+            "japanese": "",
+            "answer": "Không. Nộp đơn thường mới là bước đăng ký và xét duyệt. Hãy xác nhận kết quả xét duyệt, điều kiện hợp đồng và ngày hợp đồng có hiệu lực trước khi cho rằng đã thuê thành công."
+          },
+          {
+            "question": "Sau khi ký hợp đồng có thể chuyển vào ngay không?",
+            "japanese": "",
+            "answer": "Không phải lúc nào cũng vậy. Ngày chuyển vào phụ thuộc việc xét duyệt, hoàn tất hợp đồng, thanh toán các khoản cần thiết và lịch bàn giao căn hộ."
+          },
+          {
+            "question": "Khi chuyển đi có được hoàn tiền cọc không?",
+            "japanese": "",
+            "answer": "Có thể được hoàn lại một phần hoặc toàn bộ sau khi đối chiếu các khoản phải thanh toán và điều kiện hợp đồng. Tiền thuê còn thiếu, hư hỏng thuộc trách nhiệm người thuê hoặc khoản khấu trừ hợp lệ có thể làm giảm số tiền hoàn lại."
+          }
+        ]
+      }
+    ],
+    "categories": [
+      "THUẬT NGỮ CƠ BẢN",
+      "CÁC BÊN LIÊN QUAN",
+      "CHI PHÍ",
+      "HỒ SƠ VÀ HỢP ĐỒNG"
+    ]
+  },
+  "contact": {
+    "eyebrow": "05 · LIÊN HỆ",
+    "title": "Hãy chia sẻ nhu cầu của bạn",
+    "description": "Bạn đang tìm nhà, chuẩn bị chuyển đến Nhật Bản hay cần hỗ trợ trong cuộc sống hằng ngày? Chúng tôi luôn sẵn sàng lắng nghe và cùng bạn tìm hiểu lựa chọn phù hợp.",
+    "lineTitle": "Nhắn tin qua LINE",
+    "lineText": "Liên hệ trực tiếp với đội ngũ của chúng tôi để trao đổi về nhu cầu.",
+    "facebookTitle": "Liên hệ qua Facebook",
+    "facebookText": "Gửi câu hỏi và trao đổi với chúng tôi về dịch vụ bạn quan tâm.",
+    "infoTitle": "Thông tin liên hệ",
+    "legalName": "Tên pháp nhân",
+    "address": "Địa chỉ văn phòng",
+    "phone": "Điện thoại",
+    "email": "Email",
+    "hours": "Giờ làm việc",
+    "hoursValue": "09:00–17:00",
+    "map": "Xem vị trí trên Google Maps",
+    "socialTitle": "Kết nối với chúng tôi",
+    "facebook": "Facebook · Nhắn tin và tìm hiểu thông tin bất động sản.",
+    "tiktok": "TikTok · Video tham quan căn hộ và khám phá nhà ở.",
+    "instagram": "Instagram · Hình ảnh căn hộ và không gian sống.",
+    "line": "LINE · Nhắn tin để được tư vấn theo nhu cầu.",
+    "closing": "Chúng tôi mong được đồng hành cùng bạn trên hành trình xây dựng cuộc sống tại Nhật Bản.",
+    "channelsNote": "Đường dẫn đến trang LINE, Facebook, TikTok và Instagram chưa có trong tài liệu cung cấp. Bạn có thể liên hệ qua điện thoại hoặc email."
+  },
+  "listing": {
+    "demoNotice": "Dữ liệu dưới đây chỉ dùng minh họa giao diện; đây không phải tin đăng thật. Giá, tình trạng, địa chỉ và điều kiện thuê cần được xác nhận trực tiếp.",
+    "sampleLabel": "Mẫu minh họa · không phải tin đăng thật",
+    "title": "Căn hộ và nhà cho thuê",
+    "description": "Tìm hiểu một số ví dụ về cách trình bày tin nhà. Hãy liên hệ để xác nhận lựa chọn thực tế theo khu vực và ngân sách của bạn.",
+    "searchLegend": "Tìm nhà theo nhu cầu",
+    "keyword": "Từ khóa",
+    "keywordPlaceholder": "Tên căn hộ, khu vực hoặc ga gần nhất",
+    "area": "Khu vực",
+    "allAreas": "Tất cả khu vực",
+    "osaka": "Osaka",
+    "kobe": "Kobe",
+    "propertyType": "Loại hình",
+    "anyType": "Tất cả loại hình",
+    "apartment": "Căn hộ",
+    "house": "Nhà riêng",
+    "minPrice": "Giá thuê từ (¥/tháng)",
+    "maxPrice": "Đến (¥/tháng)",
+    "minArea": "Diện tích tối thiểu (m²)",
+    "sort": "Sắp xếp",
+    "newest": "Mới cập nhật",
+    "priceLow": "Giá thấp đến cao",
+    "priceHigh": "Giá cao đến thấp",
+    "applyFilters": "Tìm kiếm",
+    "reset": "Xóa bộ lọc",
+    "resultCount": "{count} mẫu minh họa",
+    "noResults": "Không có mẫu nào khớp với bộ lọc này. Thử nới điều kiện tìm kiếm.",
+    "listingType": "Cho thuê",
+    "perMonth": "/ tháng",
+    "sqm": "m²",
+    "neighborhood": "Khu vực",
+    "nearestStation": "Ga gần nhất",
+    "minuteWalk": "{count} phút đi bộ",
+    "details": "Xem chi tiết",
+    "detailTitle": "Chi tiết căn hộ",
+    "overview": "Tổng quan",
+    "descriptionHeading": "Giới thiệu",
+    "amenities": "Tiện ích",
+    "contactAgent": "Trao đổi với đội ngũ tư vấn",
+    "agentName": "TOANHOANG REAL ESTATE",
+    "agentRole": "Đơn vị tư vấn",
+    "contactText": "Đây là trang mẫu. Hãy liên hệ để xác nhận thông tin nhà ở thực tế trước khi đưa ra quyết định.",
+    "contactNow": "Liên hệ để xác nhận",
+    "related": "Mẫu nhà khác",
+    "backToSearch": "Quay lại danh sách",
+    "sampleDetailNotice": "Toàn bộ thông tin trên trang này là dữ liệu minh họa, không đại diện cho bất động sản đang được chào thuê.",
+    "floorPlanLabel": "Sơ đồ phòng",
+    "floorAreaLabel": "Diện tích mặt sàn"
+  }
+}

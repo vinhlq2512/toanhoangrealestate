@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Toan Hoang Real Estate｜日本住房与生活服务",
+    "description": "从大阪为您提供多语言支持，协助寻找住房、搬家并适应日本生活。"
+  },
+  "common": {
+    "brand": "TOANHOANG REAL ESTATE",
+    "home": "首页",
+    "services": "服务",
+    "properties": "住房与房产",
+    "apartments": "公寓",
+    "areas": "地区",
+    "connect": "与我们联系",
+    "footerDescription": "协助外国居民寻找住房并适应日本生活。",
+    "faq": "常见问题",
+    "contact": "联系",
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "contactUs": "联系我们",
+    "line": "通过 LINE 联系",
+    "facebook": "通过 Facebook 联系",
+    "location": "日本大阪",
+    "menu": "打开菜单",
+    "close": "关闭菜单",
+    "language": "语言",
+    "copyright": "© 2026 TOANHOANG REAL ESTATE。保留所有权利。",
+    "madeFor": "Your Home in Japan"
+  },
+  "nav": {
+    "tagline": "您在日本的家"
+  },
+  "home": {
+    "eyebrow": "TOANHOANG REAL ESTATE",
+    "title": "陪伴您开启<highlight>在日本生活</highlight>的新旅程",
+    "highlight": "在日本生活",
+    "subtitle": "找到合适的家，开启在日本的新生活。",
+    "description": "TOANHOANG REAL ESTATE 为在日本生活的外国人提供房产及生活支持。从寻找公寓到日常所需，我们愿意倾听并陪伴您一路前行。",
+    "support": "为外国居民提供支持",
+    "osaka": "大阪的多种住房选择",
+    "free": "按需求提供咨询",
+    "languages": "多语言支持",
+    "introTitle": "家，不只是住所",
+    "introText": "找到合适的家只是开始。从寻找住房、办理手续到适应日本生活，我们都会陪伴您。",
+    "introCta": "寻找适合您的公寓",
+    "features": [
+      {
+        "title": "适合您的住房",
+        "text": "根据需求和预算了解不同公寓选择。"
+      },
+      {
+        "title": "手续协助",
+        "text": "协助了解文件、申请及必要手续。"
+      },
+      {
+        "title": "实景视频",
+        "text": "通过现有视频和照片提前了解住房。"
+      },
+      {
+        "title": "多语言支持",
+        "text": "可使用越南语及其他支持的语言沟通。"
+      }
+    ],
+    "areasTitle": "日本热门地区",
+    "areasText": "探索许多外国居民选择的地区。",
+    "cities": [
+      {
+        "name": "大阪",
+        "native": "大阪",
+        "image": "/images/locations/osaka-castle-spring.png"
+      },
+      {
+        "name": "神户",
+        "native": "神戸",
+        "image": "/images/locations/kobe-waterfront.png"
+      },
+      {
+        "name": "京都",
+        "native": "京都",
+        "image": "/images/locations/kyoto-pagoda-spring.png"
+      },
+      {
+        "name": "奈良",
+        "native": "奈良",
+        "image": "/images/locations/nara-autumn-deer.png"
+      },
+      {
+        "name": "姬路",
+        "native": "姫路",
+        "image": "/images/locations/fuji-sunset-pagoda.png"
+      },
+      {
+        "name": "东京",
+        "native": "東京",
+        "image": "/images/locations/tokyo-tower-sakura.png"
+      }
+    ],
+    "socialTitle": "关注我们",
+    "socialText": "关注我们的社交渠道，获取日本生活实用信息。",
+    "socialFacebook": "获取资讯并与我们的团队交流",
+    "socialTiktok": "了解住房和日常生活视频",
+    "socialInstagram": "公寓照片与生活空间",
+    "socialLine": "联系我们，获取所需咨询",
+    "ctaTitle": "您的新旅程从这里开始",
+    "ctaText": "您正在找房、准备搬到日本，或需要日常生活协助吗？欢迎告诉我们您的需求。",
+    "cta": "一起寻找合适的选择"
+  },
+  "services": {
+    "eyebrow": "02 · 我们的服务",
+    "title": "为日本生活提供切实帮助",
+    "description": "TOANHOANG REAL ESTATE 提供住房、搬家准备和日常必需服务方面的协助。",
+    "contactTitle": "联系我们",
+    "contactText": "期待陪伴您在日本开启生活。",
+    "items": [
+      {
+        "title": "房产服务",
+        "description": "根据您的需求、地区和预算，协助寻找合适房产。",
+        "points": [
+          "租赁公寓和住宅",
+          "房产买卖咨询",
+          "寻找办公空间",
+          "寻找商店、餐厅及商业空间",
+          "协助寻找日本各地房产"
+        ],
+        "image": "/images/services/warm-apartment-sunset.png",
+        "cta": "咨询房产"
+      },
+      {
+        "title": "电、水、燃气和网络申请",
+        "description": "搬入新家时协助准备必要的生活服务。",
+        "points": [
+          "申请电力",
+          "申请供水",
+          "申请燃气",
+          "申请网络和 Wi-Fi"
+        ],
+        "image": "/images/services/apartment-kitchen-gas.png",
+        "cta": "了解服务"
+      },
+      {
+        "title": "二手用品、家具和搬家",
+        "description": "帮助您按预算准备所需的生活用品。",
+        "points": [
+          "寻找二手家具",
+          "寻找实惠的家居用品",
+          "协助搬运物品",
+          "在服务范围内协助配送和安装"
+        ],
+        "image": "/images/services/moving-day-japan.png",
+        "cta": "咨询搬家与家具"
+      },
+      {
+        "title": "抵达日本后的支持",
+        "description": "协助您准备抵达日本后的第一步。",
+        "points": [
+          "机场接送",
+          "协助办理手机 SIM 卡",
+          "协助准备 Wi-Fi",
+          "根据适用条件提供银行开户指引"
+        ],
+        "image": "/images/services/osaka-airport-arrivals.png",
+        "cta": "了解服务"
+      },
+      {
+        "title": "日常生活支持",
+        "description": "提供信息与指引，让您在日本生活更加便利。",
+        "points": [
+          "了解必要的生活服务",
+          "根据需求沟通和咨询",
+          "在可能的情况下联系合适服务"
+        ],
+        "image": "/images/services/daily-life-support-japan.png",
+        "cta": "与我们交流"
+      }
+    ],
+    "ctaTitle": "需要解决具体问题吗？",
+    "ctaText": "请告诉我们您的需求，我们将一起了解合适的选择和支持方式。"
+  },
+  "properties": {
+    "eyebrow": "03 · 住房与房产",
+    "title": "探索日本的房产选择",
+    "description": "从经济型租房、外国居民住房到商业空间和投资房产，我们协助您根据需求和预算了解可选方案。",
+    "rentalTitle": "租赁住房系统",
+    "rentalText": "为学生、上班族、家庭及在日外国居民提供多种住房选择。",
+    "rentalCta": "寻找出租住房",
+    "rentals": [
+      {
+        "title": "经济型租房",
+        "subtitle": "Cheap Rentals",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "适合注重预算的住房选择。"
+      },
+      {
+        "title": "SHI 公营住宅",
+        "subtitle": "市営住宅・府営住宅",
+        "image": "/images/properties/village-house-apartment.png",
+        "text": "由市或府管理的公共住房，申请和资格要求因情况而异。"
+      },
+      {
+        "title": "UR 住宅",
+        "subtitle": "UR賃貸住宅",
+        "image": "/images/properties/ur-apartment-sakura.png",
+        "text": "UR 系统住房，需符合其租赁条件和申请要求。"
+      },
+      {
+        "title": "Village House",
+        "subtitle": "Village House",
+        "image": "/images/properties/village-house-apartment.png",
+        "text": "提供多种房型和价格的公寓选择。"
+      },
+      {
+        "title": "Leopalace21",
+        "subtitle": "Leopalace21",
+        "image": "/images/properties/leopalace-studio-apartment.png",
+        "text": "满足不同居住需求的出租公寓。"
+      },
+      {
+        "title": "SABAI",
+        "subtitle": "SABAI",
+        "image": "/images/properties/sabai-apartment.png",
+        "text": "了解 SABAI 系统的住房选择。"
+      },
+      {
+        "title": "MITAKA",
+        "subtitle": "MITAKA",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "了解 MITAKA 系统的住房选择。"
+      },
+      {
+        "title": "LEALEA",
+        "subtitle": "LEALEA",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "了解 LEALEA 系统的住房选择。"
+      }
+    ],
+    "businessTitle": "商业空间",
+    "businessText": "寻找适合在日本创业或拓展业务的空间。",
+    "business": [
+      "办公空间",
+      "商店铺面",
+      "餐厅、食堂和咖啡馆",
+      "服务业空间",
+      "商业空间",
+      "符合特定需求的经营场所"
+    ],
+    "businessImage": "/images/locations/kobe-city-at-night.png",
+    "businessCta": "咨询商业空间",
+    "saleTitle": "买卖房产",
+    "saleText": "了解适用于购房、自有资产或在日本投资的房产类型。",
+    "sale": [
+      {
+        "title": "二手建筑",
+        "image": "/images/properties/japanese-rental-apartment.png"
+      },
+      {
+        "title": "公寓楼单位",
+        "image": "/images/properties/village-house-apartment.png"
+      },
+      {
+        "title": "整栋公寓楼",
+        "image": "/images/properties/ur-apartment-sakura.png"
+      },
+      {
+        "title": "独栋住宅",
+        "image": "/images/properties/sabai-apartment.png"
+      },
+      {
+        "title": "土地",
+        "image": "/images/locations/fuji-sunset-pagoda.png"
+      },
+      {
+        "title": "商业及投资房产",
+        "image": "/images/locations/kobe-city-at-night.png"
+      }
+    ],
+    "saleCta": "咨询买卖房产",
+    "searchLabel": "您在寻找哪类房产？",
+    "searchPlaceholder": "例如：大阪公寓、经济型租房……",
+    "searchButton": "探索选择",
+    "results": "符合搜索条件的类别",
+    "noResults": "暂时没有符合搜索条件的类别。欢迎联系我们讨论您的需求。",
+    "clearSearch": "清除搜索",
+    "ctaTitle": "还没找到合适的房产吗？",
+    "ctaText": "请告诉我们您希望的地区、预算和用途。我们会协助了解能够提供的选择。",
+    "disclaimer": "价格、房屋状态、租赁及买卖条件须在咨询时确认。部分住房类型有特定申请或审核要求。"
+  },
+  "faq": {
+    "eyebrow": "04 · 常见问题",
+    "title": "常见问题",
+    "subtitle": "日本租房指南",
+    "description": "了解在日本租房时的流程、费用及相关事项。",
+    "contactTitle": "还有其他问题吗？",
+    "contactText": "如果您对费用有疑问，或希望了解适合预算的住房选择，欢迎联系我们。",
+    "groups": [
+      {
+        "title": "租房基本术语",
+        "subtitle": "了解租赁合同中常见的术语。",
+        "items": [
+          {
+            "question": "什么是租金担保公司？",
+            "japanese": "保証会社（ほしょうがいしゃ）",
+            "answer": "该公司根据担保协议为租金支付义务提供担保。如果租户未付款，公司可能在担保范围内代付，之后再向租户追偿。通常会收取初始费用，也可能收取续费。这不是免费代付房租的服务。"
+          },
+          {
+            "question": "什么是租赁住宅保险？",
+            "japanese": "火災保険（かさいほけん）",
+            "answer": "在日本签订租房合同时通常会要求购买此类保险。保障范围依方案而异，可能包括火灾、漏水或赔偿责任。请确认具体合同的保障范围、期限和费用。"
+          },
+          {
+            "question": "什么是礼金？",
+            "japanese": "礼金（れいきん）",
+            "answer": "根据租赁条件支付给房东的费用，通常不予退还，且仅在房屋明确要求时收取。"
+          },
+          {
+            "question": "什么是押金？",
+            "japanese": "敷金（しききん）",
+            "answer": "根据租赁合同支付的押金。退房时扣除合同允许的费用，例如未付租金或由租户负责的维修费后，可能退还余额。"
+          },
+          {
+            "question": "物业管理公司负责什么？",
+            "japanese": "管理会社（かんりがいしゃ）",
+            "answer": "房东可能委托管理公司处理楼宇事务、接收故障报告及协调维护。管理公司不一定是业主，职责范围取决于管理协议。"
+          },
+          {
+            "question": "什么是中介费？",
+            "japanese": "仲介手数料（ちゅうかいてすうりょう）",
+            "answer": "向介绍房屋并协助租赁交易的房产公司支付的费用。金额取决于协议、交易类型和适用规定，并非所有房屋都相同。"
+          }
+        ]
+      },
+      {
+        "title": "租赁过程中涉及的各方",
+        "subtitle": "了解租房过程中各方的职责。",
+        "items": [
+          {
+            "question": "租房过程中可能涉及哪些单位？",
+            "japanese": "",
+            "answer": "通常有五种角色：房东（貸主・大家）、物业管理公司（管理会社）、房产中介（仲介会社）、租金担保公司（保証会社）及保险公司（保険会社）。根据房屋和协议，同一家公司可能承担多个角色。"
+          }
+        ]
+      },
+      {
+        "title": "租房费用",
+        "subtitle": "关于租房费用的常见问题。",
+        "items": [
+          {
+            "question": "入住前费用通常包括什么？",
+            "japanese": "初期費用（しょきひよう）",
+            "answer": "可能包括预付租金、管理费、押金（敷金）、礼金（礼金）、中介费、担保费、保险费、换锁费、清洁费及房屋规定的其他费用。并非每套房都有全部费用。"
+          },
+          {
+            "question": "入住前费用一定等于四至六个月租金吗？",
+            "japanese": "",
+            "answer": "不一定。四至六个月只是部分情况下的参考值，并非固定规定。优惠和必缴费用会影响总额。签约前请索取逐项费用估算表。"
+          },
+          {
+            "question": "押金和礼金有什么区别？",
+            "japanese": "敷金・礼金",
+            "answer": "押金在扣除合同允许的费用后可能退还。礼金通常不退还，且只有房屋要求时才需支付。"
+          },
+          {
+            "question": "担保公司的费用是押金吗？",
+            "japanese": "",
+            "answer": "不是。押金依据租赁合同缴纳；担保费则用于支付担保服务。即使按时缴纳租金，担保费通常也不会退还。请确认担保协议中的定期费用。"
+          },
+          {
+            "question": "管理费包含在租金里吗？",
+            "japanese": "",
+            "answer": "视房屋而定。有些房屋将管理费计入标价租金，有些则单独收取。比较时请查看包括租金、管理费及定期费用的月度总额。"
+          }
+        ]
+      },
+      {
+        "title": "文件与租赁合同",
+        "subtitle": "有关资料和租赁手续的问题。",
+        "items": [
+          {
+            "question": "外国居民可能需要准备哪些文件？",
+            "japanese": "",
+            "answer": "视情况可能需要在留卡（在留カード）、护照（パスポート）、收入或工作证明、学生证或在读证明、联系方式及其他所需文件。具体要求取决于居留身份和房屋。"
+          },
+          {
+            "question": "提交租房申请就代表已经租到房了吗？",
+            "japanese": "",
+            "answer": "不是。申请通常只是开始登记和审核。请确认审核结果、合同条件及合同生效日期后，再视为租赁成功。"
+          },
+          {
+            "question": "签约后可以马上入住吗？",
+            "japanese": "",
+            "answer": "不一定。入住日期取决于审核、合同手续完成、所需款项支付及房屋交付安排。"
+          },
+          {
+            "question": "搬走时押金会退还吗？",
+            "japanese": "",
+            "answer": "结算合同允许的费用后，押金可能部分或全部退还。未付租金、由租户负责的损坏或其他合理扣款都会减少退款。"
+          }
+        ]
+      }
+    ],
+    "categories": [
+      "基本术语",
+      "相关各方",
+      "费用",
+      "文件与合同"
+    ]
+  },
+  "contact": {
+    "eyebrow": "05 · 联系",
+    "title": "告诉我们您的需求",
+    "description": "您正在找房、准备搬到日本，或需要日常生活协助吗？我们愿意倾听并与您一起了解合适选择。",
+    "lineTitle": "通过 LINE 联系",
+    "lineText": "直接联系我们的团队，沟通您的需求。",
+    "facebookTitle": "通过 Facebook 联系",
+    "facebookText": "向我们发送问题，了解您关心的服务。",
+    "infoTitle": "联系信息",
+    "legalName": "法人名称",
+    "address": "办公室地址",
+    "phone": "电话",
+    "email": "电子邮箱",
+    "hours": "营业时间",
+    "hoursValue": "09:00–17:00",
+    "map": "在 Google 地图中查看",
+    "socialTitle": "关注我们",
+    "facebook": "Facebook · 联系我们并了解房产信息。",
+    "tiktok": "TikTok · 公寓参观及住房视频。",
+    "instagram": "Instagram · 公寓与生活空间照片。",
+    "line": "LINE · 联系我们获取所需咨询。",
+    "closing": "期待陪伴您在日本开启生活。",
+    "channelsNote": "所提供资料中没有 LINE、Facebook、TikTok 和 Instagram 的具体链接。您可以通过电话或电子邮件联系我们。"
+  },
+  "listing": {
+    "demoNotice": "以下内容仅为界面演示数据，并非真实房源。实际价格、房屋状态、地址及租赁条件请向我们确认。",
+    "sampleLabel": "示例 · 非真实房源",
+    "title": "出租公寓与住宅",
+    "description": "查看房源卡片和详情的示例。请联系我们，确认符合您地区和预算的实际选择。",
+    "searchLegend": "寻找适合您的住房",
+    "keyword": "关键词",
+    "keywordPlaceholder": "房屋名称、地区或最近车站",
+    "area": "地区",
+    "allAreas": "所有地区",
+    "osaka": "大阪",
+    "kobe": "神户",
+    "propertyType": "房屋类型",
+    "anyType": "所有类型",
+    "apartment": "公寓",
+    "house": "独栋住宅",
+    "minPrice": "最低租金（¥/月）",
+    "maxPrice": "最高租金（¥/月）",
+    "minArea": "最小面积（m²）",
+    "sort": "排序方式",
+    "newest": "最近更新",
+    "priceLow": "租金从低到高",
+    "priceHigh": "租金从高到低",
+    "applyFilters": "搜索住房",
+    "reset": "清除筛选",
+    "resultCount": "{count} 套示例住房",
+    "noResults": "没有符合条件的示例住房，请放宽筛选条件。",
+    "listingType": "出租",
+    "perMonth": "/ 月",
+    "sqm": "m²",
+    "neighborhood": "地区",
+    "nearestStation": "最近车站",
+    "minuteWalk": "步行 {count} 分钟",
+    "details": "查看详情",
+    "detailTitle": "房屋详情",
+    "overview": "概况",
+    "descriptionHeading": "房屋介绍",
+    "amenities": "设施",
+    "contactAgent": "与我们的团队沟通",
+    "agentName": "TOANHOANG REAL ESTATE",
+    "agentRole": "住房顾问",
+    "contactText": "这是一个示例页面。作出决定前，请联系我们确认实际房源信息。",
+    "contactNow": "联系我们确认",
+    "related": "其他示例住房",
+    "backToSearch": "返回列表",
+    "sampleDetailNotice": "本页全部信息均为演示数据，不代表目前正在出租的房产。",
+    "floorPlanLabel": "户型",
+    "floorAreaLabel": "使用面积"
+  }
+}

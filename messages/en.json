@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Toan Hoang Real Estate | Homes and life in Japan",
+    "description": "Find a home, move to Japan and settle in with support from our multilingual team in Osaka."
+  },
+  "common": {
+    "brand": "TOANHOANG REAL ESTATE",
+    "home": "Home",
+    "services": "Services",
+    "properties": "Homes & Property",
+    "apartments": "Apartments",
+    "areas": "Areas",
+    "connect": "Stay connected",
+    "footerDescription": "Helping international residents find a home and settle into life in Japan.",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "contactUs": "Contact us",
+    "line": "Message us on LINE",
+    "facebook": "Contact us on Facebook",
+    "location": "Osaka, Japan",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "language": "Language",
+    "copyright": "© 2026 TOANHOANG REAL ESTATE. All rights reserved.",
+    "madeFor": "Your Home in Japan"
+  },
+  "nav": {
+    "tagline": "Your home in Japan"
+  },
+  "home": {
+    "eyebrow": "TOANHOANG REAL ESTATE",
+    "title": "With you on your journey to <highlight>life in Japan</highlight>",
+    "highlight": "Life in Japan",
+    "subtitle": "Find a home that fits and start your new life in Japan.",
+    "description": "TOANHOANG REAL ESTATE provides real estate and daily-life support for people from overseas in Japan. From finding an apartment to everyday essentials, we are ready to listen and help you along the way.",
+    "support": "Support for international residents",
+    "osaka": "More housing choices in Osaka",
+    "free": "Advice for your needs",
+    "languages": "Multilingual support",
+    "introTitle": "More than a place to live",
+    "introText": "Finding the right home is only the beginning. We support you from your home search and paperwork through settling into life in Japan.",
+    "introCta": "Find an apartment that fits",
+    "features": [
+      {
+        "title": "A home that fits",
+        "text": "Explore apartments for different needs and budgets."
+      },
+      {
+        "title": "Help with paperwork",
+        "text": "Guidance on documents, applications and essential procedures."
+      },
+      {
+        "title": "Video tours",
+        "text": "Preview homes using available videos and photos."
+      },
+      {
+        "title": "Multilingual support",
+        "text": "Talk with us in Vietnamese and other supported languages."
+      }
+    ],
+    "areasTitle": "Featured areas in Japan",
+    "areasText": "Explore places chosen by many international residents.",
+    "cities": [
+      {
+        "name": "Osaka",
+        "native": "大阪",
+        "image": "/images/locations/osaka-castle-spring.png"
+      },
+      {
+        "name": "Kobe",
+        "native": "神戸",
+        "image": "/images/locations/kobe-waterfront.png"
+      },
+      {
+        "name": "Kyoto",
+        "native": "京都",
+        "image": "/images/locations/kyoto-pagoda-spring.png"
+      },
+      {
+        "name": "Nara",
+        "native": "奈良",
+        "image": "/images/locations/nara-autumn-deer.png"
+      },
+      {
+        "name": "Himeji",
+        "native": "姫路",
+        "image": "/images/locations/fuji-sunset-pagoda.png"
+      },
+      {
+        "name": "Tokyo",
+        "native": "東京",
+        "image": "/images/locations/tokyo-tower-sakura.png"
+      }
+    ],
+    "socialTitle": "Stay connected",
+    "socialText": "Follow our channels for useful information about life in Japan.",
+    "socialFacebook": "Updates and a way to talk with our team",
+    "socialTiktok": "Videos about housing and everyday life",
+    "socialInstagram": "Apartment photos and living spaces",
+    "socialLine": "Get in touch for advice tailored to you",
+    "ctaTitle": "Your journey starts here",
+    "ctaText": "Looking for a home, preparing to move to Japan, or need help with everyday life? Tell us what you need.",
+    "cta": "Explore options together"
+  },
+  "services": {
+    "eyebrow": "02 · OUR SERVICES",
+    "title": "Practical support for life in Japan",
+    "description": "TOANHOANG REAL ESTATE offers services to help you find a home, prepare for a move and take care of everyday essentials.",
+    "contactTitle": "Connect with us",
+    "contactText": "We hope to support you as you build your life in Japan.",
+    "items": [
+      {
+        "title": "Real estate services",
+        "description": "We help you explore homes that fit your needs, location and budget.",
+        "points": [
+          "Rent an apartment or house",
+          "Advice on buying and selling property",
+          "Find an office",
+          "Find a shop, restaurant or other business space",
+          "Search across areas throughout Japan"
+        ],
+        "image": "/images/services/warm-apartment-sunset.png",
+        "cta": "Ask about real estate"
+      },
+      {
+        "title": "Utilities and internet setup",
+        "description": "Get essential services ready when you move into a new home.",
+        "points": [
+          "Set up electricity",
+          "Set up water",
+          "Set up gas",
+          "Set up internet and Wi-Fi"
+        ],
+        "image": "/images/services/apartment-kitchen-gas.png",
+        "cta": "Learn about this service"
+      },
+      {
+        "title": "Second-hand goods, furniture and moving",
+        "description": "Find practical household items that suit your budget.",
+        "points": [
+          "Find second-hand furniture",
+          "Find affordable household goods",
+          "Get help moving belongings",
+          "Delivery and setup where available"
+        ],
+        "image": "/images/services/moving-day-japan.png",
+        "cta": "Ask about moving and furniture"
+      },
+      {
+        "title": "Arrival support",
+        "description": "Prepare for the first steps after arriving in Japan.",
+        "points": [
+          "Airport pickup",
+          "Help arranging a phone SIM",
+          "Help preparing Wi-Fi",
+          "Guidance on opening a bank account, subject to eligibility"
+        ],
+        "image": "/images/services/osaka-airport-arrivals.png",
+        "cta": "Learn about this service"
+      },
+      {
+        "title": "Everyday-life support",
+        "description": "Information and guidance to make daily life in Japan easier.",
+        "points": [
+          "Learn about essential services",
+          "Discuss your needs with our team",
+          "Connect with suitable services when possible"
+        ],
+        "image": "/images/services/daily-life-support-japan.png",
+        "cta": "Talk with us"
+      }
+    ],
+    "ctaTitle": "Need help with something specific?",
+    "ctaText": "Tell us what you need. We will explore suitable options and ways to help with you."
+  },
+  "properties": {
+    "eyebrow": "03 · HOMES & REAL ESTATE",
+    "title": "Explore housing options in Japan",
+    "description": "From affordable rentals and homes for international residents to business spaces and investment property, we help you explore options for your needs and budget.",
+    "rentalTitle": "Rental housing systems",
+    "rentalText": "Housing options for students, professionals, families and international residents in Japan.",
+    "rentalCta": "Explore rentals",
+    "rentals": [
+      {
+        "title": "Affordable rentals",
+        "subtitle": "Cheap Rentals",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Budget-conscious housing options."
+      },
+      {
+        "title": "SHI housing",
+        "subtitle": "市営住宅・府営住宅",
+        "image": "/images/properties/village-house-apartment.png",
+        "text": "Public housing managed by a city or prefecture, subject to application and eligibility requirements."
+      },
+      {
+        "title": "UR Housing",
+        "subtitle": "UR賃貸住宅",
+        "image": "/images/properties/ur-apartment-sakura.png",
+        "text": "Housing within the UR system, subject to its rental terms and application requirements."
+      },
+      {
+        "title": "Village House",
+        "subtitle": "Village House",
+        "image": "/images/properties/village-house-apartment.png",
+        "text": "Apartments with a range of room types and prices."
+      },
+      {
+        "title": "Leopalace21",
+        "subtitle": "Leopalace21",
+        "image": "/images/properties/leopalace-studio-apartment.png",
+        "text": "Rental apartments for a variety of living needs."
+      },
+      {
+        "title": "SABAI",
+        "subtitle": "SABAI",
+        "image": "/images/properties/sabai-apartment.png",
+        "text": "Explore housing options from the SABAI system."
+      },
+      {
+        "title": "MITAKA",
+        "subtitle": "MITAKA",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Explore housing options from the MITAKA system."
+      },
+      {
+        "title": "LEALEA",
+        "subtitle": "LEALEA",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Explore housing options from the LEALEA system."
+      }
+    ],
+    "businessTitle": "Business spaces",
+    "businessText": "Find a suitable space to start or grow your business in Japan.",
+    "business": [
+      "Office space",
+      "Retail shops",
+      "Restaurants, eateries and cafés",
+      "Service businesses",
+      "Commercial spaces",
+      "Business spaces for specific needs"
+    ],
+    "businessImage": "/images/locations/kobe-city-at-night.png",
+    "businessCta": "Ask about business spaces",
+    "saleTitle": "Property for sale",
+    "saleText": "Explore property for buying a home, owning an asset or investing in Japan.",
+    "sale": [
+      {
+        "title": "Existing buildings",
+        "image": "/images/properties/japanese-rental-apartment.png"
+      },
+      {
+        "title": "Condominiums",
+        "image": "/images/properties/village-house-apartment.png"
+      },
+      {
+        "title": "Entire apartment buildings",
+        "image": "/images/properties/ur-apartment-sakura.png"
+      },
+      {
+        "title": "Detached houses",
+        "image": "/images/properties/sabai-apartment.png"
+      },
+      {
+        "title": "Land",
+        "image": "/images/locations/fuji-sunset-pagoda.png"
+      },
+      {
+        "title": "Commercial and investment property",
+        "image": "/images/locations/kobe-city-at-night.png"
+      }
+    ],
+    "saleCta": "Ask about property for sale",
+    "searchLabel": "What type of property are you looking for?",
+    "searchPlaceholder": "For example: Osaka apartment, affordable rental...",
+    "searchButton": "Explore options",
+    "results": "Categories matching your search",
+    "noResults": "No categories match that search yet. Contact us to discuss what you need.",
+    "clearSearch": "Clear search",
+    "ctaTitle": "Haven't found the right property?",
+    "ctaText": "Tell us your preferred area, budget and purpose. We will help explore options we can access.",
+    "disclaimer": "Prices, availability, rental terms and purchase terms must be confirmed when you enquire. Some housing types have specific application or screening requirements."
+  },
+  "faq": {
+    "eyebrow": "04 · FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "A guide to renting in Japan",
+    "description": "Understand the basics of the rental process, costs and other considerations when renting in Japan.",
+    "contactTitle": "Have another question?",
+    "contactText": "Contact us if you have questions about fees or want help finding an option for your budget.",
+    "groups": [
+      {
+        "title": "Rental terms",
+        "subtitle": "Common terms in rental agreements.",
+        "items": [
+          {
+            "question": "What is a rent guarantee company?",
+            "japanese": "保証会社（ほしょうがいしゃ）",
+            "answer": "A company that guarantees rental payment obligations under a separate agreement. If a tenant does not pay, it may pay the landlord within the guarantee's scope and then seek reimbursement. An initial fee and renewal fees may apply. This is not free rent assistance."
+          },
+          {
+            "question": "What is rental property insurance?",
+            "japanese": "火災保険（かさいほけん）",
+            "answer": "Insurance commonly required when signing a rental agreement in Japan. Depending on the plan, it may cover fire, water leaks or liability. Check the coverage, term and fee in the specific policy."
+          },
+          {
+            "question": "What is key money?",
+            "japanese": "礼金（れいきん）",
+            "answer": "A payment to the landlord required by some rental terms. It is generally non-refundable and applies only when specified for the property."
+          },
+          {
+            "question": "What is a security deposit?",
+            "japanese": "敷金（しききん）",
+            "answer": "A deposit paid under the rental agreement. It may be returned after move-out, less valid deductions such as unpaid rent or repairs for which the tenant is responsible."
+          },
+          {
+            "question": "What does a property management company do?",
+            "japanese": "管理会社（かんりがいしゃ）",
+            "answer": "The landlord may appoint a company to handle building matters, receive incident reports and coordinate maintenance. It is not necessarily the owner; its duties depend on the management agreement."
+          },
+          {
+            "question": "What is a brokerage fee?",
+            "japanese": "仲介手数料（ちゅうかいてすうりょう）",
+            "answer": "A fee paid to the real estate company that introduces a property and assists with the rental transaction. The amount depends on the agreement, transaction and applicable rules; it is not the same for every rental."
+          }
+        ]
+      },
+      {
+        "title": "People involved in a rental",
+        "subtitle": "Know who does what during the rental process.",
+        "items": [
+          {
+            "question": "Who may be involved when renting a home?",
+            "japanese": "",
+            "answer": "There are commonly five roles: the landlord (貸主・大家), property manager (管理会社), brokerage (仲介会社), rent guarantee company (保証会社) and insurer (保険会社). One business may perform more than one role depending on the property and agreements."
+          }
+        ]
+      },
+      {
+        "title": "Rental costs",
+        "subtitle": "Common questions about rental charges.",
+        "items": [
+          {
+            "question": "What can upfront costs include?",
+            "japanese": "初期費用（しょきひよう）",
+            "answer": "They may include advance rent, management fees, security deposit (敷金), key money (礼金), brokerage and guarantee fees, insurance, lock replacement, cleaning and other property-specific charges. Not every home has all of these."
+          },
+          {
+            "question": "Are upfront costs always four to six months of rent?",
+            "japanese": "",
+            "answer": "No. Four to six months is only a rough reference for some cases, not a fixed rule. Discounts and required fees can change the total. Ask for an itemized estimate before signing."
+          },
+          {
+            "question": "How are a security deposit and key money different?",
+            "japanese": "敷金・礼金",
+            "answer": "A security deposit may be returned after valid deductions under the agreement. Key money is generally non-refundable and is charged only when the property requires it."
+          },
+          {
+            "question": "Is the guarantee fee a security deposit?",
+            "japanese": "",
+            "answer": "No. A security deposit is paid under the lease; a guarantee fee pays for a service that guarantees payment obligations. Guarantee fees are generally not refunded just because rent was paid on time. Check any recurring fees in the agreement."
+          },
+          {
+            "question": "Is the management fee included in rent?",
+            "japanese": "",
+            "answer": "It depends on the property. Some include it in the advertised rent, while others charge it separately. Compare the monthly total, including rent, management and recurring fees."
+          }
+        ]
+      },
+      {
+        "title": "Documents and rental agreements",
+        "subtitle": "Questions about paperwork and the rental process.",
+        "items": [
+          {
+            "question": "What documents might foreign residents need?",
+            "japanese": "",
+            "answer": "Depending on the case: residence card (在留カード), passport (パスポート), proof of income or employment, student ID or proof of enrolment, contact details and other requested documents. Requirements vary by residence status and property."
+          },
+          {
+            "question": "Does applying mean I have secured the home?",
+            "japanese": "",
+            "answer": "No. An application usually starts screening. Confirm the screening result, agreement terms and contract start date before considering the home secured."
+          },
+          {
+            "question": "Can I move in immediately after signing?",
+            "japanese": "",
+            "answer": "Not always. The move-in date depends on screening, completion of the contract, payment of required costs and the property's handover schedule."
+          },
+          {
+            "question": "Will I get my deposit back when I move out?",
+            "japanese": "",
+            "answer": "Some or all may be returned after valid charges under the agreement are reconciled. Unpaid rent, tenant-responsible damage or other valid deductions can reduce the refund."
+          }
+        ]
+      }
+    ],
+    "categories": [
+      "BASIC TERMS",
+      "STAKEHOLDERS",
+      "COSTS",
+      "DOCUMENTS AND AGREEMENTS"
+    ]
+  },
+  "contact": {
+    "eyebrow": "05 · CONTACT",
+    "title": "Tell us what you need",
+    "description": "Looking for a home, preparing to move to Japan or need help with everyday life? We are ready to listen and explore suitable options with you.",
+    "lineTitle": "Message us on LINE",
+    "lineText": "Contact our team directly to discuss what you need.",
+    "facebookTitle": "Contact us on Facebook",
+    "facebookText": "Send a question and talk with us about the service you need.",
+    "infoTitle": "Contact information",
+    "legalName": "Legal entity",
+    "address": "Office address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Business hours",
+    "hoursValue": "09:00–17:00",
+    "map": "View on Google Maps",
+    "socialTitle": "Connect with us",
+    "facebook": "Facebook · Message us and ask about real estate.",
+    "tiktok": "TikTok · Apartment tours and housing videos.",
+    "instagram": "Instagram · Apartments and living spaces.",
+    "line": "LINE · Message us for advice tailored to you.",
+    "closing": "We hope to support you as you build your life in Japan.",
+    "channelsNote": "Direct links for LINE, Facebook, TikTok and Instagram were not included in the supplied materials. You can reach us by phone or email."
+  },
+  "listing": {
+    "demoNotice": "The examples below are mock data for the interface only; they are not real listings. Confirm actual price, availability, address and rental terms with our team.",
+    "sampleLabel": "Sample · not a real listing",
+    "title": "Apartments and houses for rent",
+    "description": "See sample rental cards and details. Contact us to confirm real options for your area and budget.",
+    "searchLegend": "Find a home that fits",
+    "keyword": "Keyword",
+    "keywordPlaceholder": "Property, area or nearest station",
+    "area": "Area",
+    "allAreas": "All areas",
+    "osaka": "Osaka",
+    "kobe": "Kobe",
+    "propertyType": "Property type",
+    "anyType": "Any type",
+    "apartment": "Apartment",
+    "house": "Detached house",
+    "minPrice": "Min rent (¥/month)",
+    "maxPrice": "Max rent (¥/month)",
+    "minArea": "Min area (m²)",
+    "sort": "Sort by",
+    "newest": "Recently updated",
+    "priceLow": "Price: low to high",
+    "priceHigh": "Price: high to low",
+    "applyFilters": "Search homes",
+    "reset": "Clear filters",
+    "resultCount": "{count} sample homes",
+    "noResults": "No sample homes match these filters. Try widening your search.",
+    "listingType": "For rent",
+    "perMonth": "/ month",
+    "sqm": "m²",
+    "neighborhood": "Area",
+    "nearestStation": "Nearest station",
+    "minuteWalk": "{count} min walk",
+    "details": "View details",
+    "detailTitle": "Property details",
+    "overview": "Overview",
+    "descriptionHeading": "About this home",
+    "amenities": "Amenities",
+    "contactAgent": "Talk with our team",
+    "agentName": "TOANHOANG REAL ESTATE",
+    "agentRole": "Housing advisor",
+    "contactText": "This is a sample page. Contact us to confirm real housing information before making a decision.",
+    "contactNow": "Contact us to confirm",
+    "related": "More sample homes",
+    "backToSearch": "Back to results",
+    "sampleDetailNotice": "All information on this page is mock data and does not represent a property currently offered for rent.",
+    "floorPlanLabel": "Floor plan",
+    "floorAreaLabel": "Floor area"
+  }
+}
