@@ -43,7 +43,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
             <p className="hero-subtitle">{t("subtitle")}</p>
             <div className="hero-actions">
               <a className="button button-blue" href={facebookPageUrl} target="_blank" rel="noopener noreferrer"><Facebook size={18} />{c("facebook")} <ArrowRight size={18} /></a>
-              <a className="button button-green" href={lineProfileUrl} target="_blank" rel="noopener noreferrer"><MessageCircle size={18} />{c("line")} <ArrowRight size={18} /></a>
+              <a className="button button-green" href={lineProfileUrl}><MessageCircle size={18} />{c("line")} <ArrowRight size={18} /></a>
             </div>
             <div className="hero-badges">
               {badges.map((badge, i) => { const Icon = icons[i]; return <span key={badge}><Icon size={17} />{badge}</span>; })}
@@ -89,8 +89,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
           <div className="channel-list">
             {channels.map(({ name, description, Icon }) => {
               const href = name === "Facebook" ? facebookPageUrl : name === "LINE" ? lineProfileUrl : "/contact#social-contact";
-              const external = href.startsWith("https://");
-              return <a href={href} target={external ? "_blank" : undefined} rel={external ? "noopener noreferrer" : undefined} key={name} className={`channel-row channel-${name.toLowerCase()}`} aria-label={`${name}: ${description}`}>
+              const openInNewTab = name === "Facebook";
+              return <a href={href} target={openInNewTab ? "_blank" : undefined} rel={openInNewTab ? "noopener noreferrer" : undefined} key={name} className={`channel-row channel-${name.toLowerCase()}`} aria-label={`${name}: ${description}`}>
                 <span className="channel-icon"><Icon size={20} /></span>
                 <span className="channel-copy"><strong>{name}</strong><small>{description}</small></span>
                 <ArrowRight size={18} />

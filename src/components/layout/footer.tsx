@@ -18,8 +18,8 @@ export function Footer() {
       <div className="footer-col"><h2>{t("learnMore")}</h2><Link href="/">{t("home")}</Link><Link href="/properties">{t("apartments")}</Link><Link href="/#areas">{t("areas")}</Link><Link href="/faq">{t("faq")}</Link><Link href="/contact">{t("contact")}</Link></div>
       <div className="footer-col footer-connect"><h2>{t("connect")}</h2><div className="footer-socials">{channels.map(({ label, Icon }) => {
         const href = label === "Facebook" ? facebookPageUrl : label === "LINE" ? lineProfileUrl : "/contact#social-contact";
-        const external = href.startsWith("https://");
-        return <a href={href} target={external ? "_blank" : undefined} rel={external ? "noopener noreferrer" : undefined} aria-label={label} key={label}><Icon size={17} /></a>;
+        const openInNewTab = label === "Facebook";
+        return <a href={href} target={openInNewTab ? "_blank" : undefined} rel={openInNewTab ? "noopener noreferrer" : undefined} aria-label={label} key={label}><Icon size={17} /></a>;
       })}</div><a href="mailto:genesis.estate.jp@gmail.com">genesis.estate.jp@gmail.com <ArrowUpRight size={14} /></a><a href="https://maps.google.com/?q=2-5-29+Sakuragawa+Naniwa+Osaka+556-0022" target="_blank" rel="noreferrer">{t("location")} <ArrowUpRight size={14} /></a></div>
       <div className="footer-col footer-languages"><h2>{t("language")}</h2><span>Tiếng Việt</span><span>English</span><span>中文</span></div>
     </div>

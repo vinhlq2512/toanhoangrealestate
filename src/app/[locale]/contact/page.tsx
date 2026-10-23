@@ -22,7 +22,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
     <PageHero eyebrow={t("eyebrow")} title={t("title")} description={t("description")} image="/images/locations/kobe-city-at-night.png" size="compact" />
     <section className="contact-page"><div className="container">
       <div className="contact-channel-grid">
-        <article className="contact-channel"><span className="channel-icon line-icon">LINE</span><div><p className="eyebrow">{t("lineTitle")}</p><h2>{t("lineTitle")}</h2><p>{t("lineText")}</p><p className="contact-number">{t("linePhone")}: {linePhoneDisplay}</p><a href={lineProfileUrl} target="_blank" rel="noopener noreferrer" className="text-link">{t("lineProfileLink")} <ArrowUpRight size={16} /></a></div></article>
+        <article className="contact-channel"><span className="channel-icon line-icon">LINE</span><div><p className="eyebrow">{t("lineTitle")}</p><h2>{t("lineTitle")}</h2><p>{t("lineText")}</p><p className="contact-number">{t("linePhone")}: {linePhoneDisplay}</p><a href={lineProfileUrl} className="text-link">{t("lineProfileLink")} <ArrowUpRight size={16} /></a></div></article>
         <article className="contact-channel"><span className="channel-icon facebook-icon">f</span><div><p className="eyebrow">{t("facebookTitle")}</p><h2>{t("facebookTitle")}</h2><p>{t("facebookText")}</p><a href={facebookPageUrl} target="_blank" rel="noopener noreferrer" className="text-link">{t("facebookTitle")} <ArrowUpRight size={16} /></a></div></article>
       </div>
       <p className="channel-note">{t("channelsNote")}</p>
@@ -39,7 +39,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         <a href={facebookPageUrl} target="_blank" rel="noopener noreferrer">{t("facebook")}</a>
         <p>{t("tiktok")}</p>
         <p>{t("instagram")}</p>
-        <a href={lineProfileUrl} target="_blank" rel="noopener noreferrer">{t("line")} · {linePhoneDisplay}</a>
+        <a href={lineProfileUrl}>{t("line")} · {linePhoneDisplay}</a>
       </div></div>
       <p className="contact-closing">{t("closing")}</p>
     </div></section>
