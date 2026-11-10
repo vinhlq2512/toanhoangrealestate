@@ -9,6 +9,9 @@ const openGraphLocales: Record<Locale, string> = {
   en: "en_US",
   zh: "zh_CN",
   ja: "ja_JP",
+  id: "id_ID",
+  ne: "ne_NP",
+  my: "my_MM",
 };
 
 const locales = routing.locales;
@@ -16,10 +19,10 @@ const locales = routing.locales;
 export function pageMetadata(locale: Locale, route: string, title: string, description: string): Metadata {
   const path = `/${locale}${route === "/" ? "" : route}`;
   const languages = Object.fromEntries(locales.map((code) => [code, `/${code}${route === "/" ? "" : route}`]));
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://toanhoangrealestate.com";
   const keywords = pageKeywords(locale, route);
   return {
-    ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
+    metadataBase: new URL(siteUrl),
     title,
     description,
     ...(keywords ? { keywords } : {}),

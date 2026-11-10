@@ -12,8 +12,8 @@
   --gold-bright: #ffd17b;
   --blue: #1877ee;
   --green: #09b94e;
-  --serif: Georgia, 'Times New Roman', serif;
-  --sans: Arial, 'Helvetica Neue', sans-serif;
+  --serif: Georgia, 'Times New Roman', 'Noto Serif Devanagari', 'Noto Serif Myanmar', serif;
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans Devanagari', 'Noto Sans Myanmar', 'Pyidaungsu', 'Myanmar Text', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'PingFang SC', Arial, 'Helvetica Neue', sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -103,6 +103,23 @@ img {
   font-size: 8px;
   letter-spacing: 0.24em;
   font-weight: 500;
+}
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 6px;
+  display: inline-block;
+}
+.brand-logo-sm {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
 }
 .brand-mark {
   width: 27px;
@@ -584,21 +601,32 @@ img {
   align-items: center;
 }
 .contact-banner > img {
-  z-index: -2;
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  z-index: 0;
 }
 .banner-shade {
   position: absolute;
   inset: 0;
-  z-index: -1;
+  z-index: 1;
   background: linear-gradient(
     90deg,
     rgba(6, 15, 24, 0.92),
     rgba(6, 15, 24, 0.62) 55%,
     rgba(6, 15, 24, 0.36)
   );
+  pointer-events: none;
 }
 .banner-content {
+  position: relative;
+  z-index: 2;
   padding-block: 56px;
+}
+.banner-content .button {
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
 }
 .banner-content h2 {
   max-width: 650px;
@@ -628,6 +656,8 @@ img {
     linear-gradient(0deg, rgba(4, 12, 20, 0.8), transparent 66%);
 }
 .page-hero-content {
+  position: relative;
+  z-index: 2;
   padding-top: 160px;
   padding-bottom: 65px;
 }
@@ -3084,22 +3114,12 @@ img {
 .social-section::before {
   content: '';
   position: absolute;
-  inset: calc(-1 * var(--section-fade-size, 170px)) 0 0;
+  inset: 0;
   z-index: 0;
   pointer-events: none;
   background-image: var(--section-scene);
   background-size: cover;
   background-position: center;
-  -webkit-mask-image: linear-gradient(
-    180deg,
-    transparent 0,
-    #000 var(--section-fade-size, 170px)
-  );
-  mask-image: linear-gradient(
-    180deg,
-    transparent 0,
-    #000 var(--section-fade-size, 170px)
-  );
 }
 .areas-section::before {
   background-position:
@@ -3114,38 +3134,26 @@ img {
 .site-footer {
   position: relative;
   isolation: isolate;
-  clip-path: inset(calc(-1 * var(--footer-fade-size, 190px)) 0 0);
-  border-top: 0;
+  border-top: 1px solid var(--line);
   background-color: #0e161e;
 }
 .site-footer::before {
   content: '';
   position: absolute;
-  inset: calc(-1 * var(--footer-fade-size, 190px)) 0 0;
+  inset: 0;
   z-index: 0;
   pointer-events: none;
-  filter: blur(3px);
   background-image:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.9)),
+    linear-gradient(180deg, rgba(6, 15, 25, 0.96), rgba(6, 15, 25, 0.92)),
     url('/images/backgrounds/japan-homes-sakura.jpg');
   background-position:
     center,
     center 76%;
   background-size: cover;
-  -webkit-mask-image: linear-gradient(
-    180deg,
-    transparent 0,
-    #000 var(--footer-fade-size, 190px)
-  );
-  mask-image: linear-gradient(
-    180deg,
-    transparent 0,
-    #000 var(--footer-fade-size, 190px)
-  );
 }
 .site-footer > .container {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 [data-scroll-reveal="true"] {
@@ -3203,9 +3211,6 @@ img {
   .areas-section .city-card {
     height: auto;
     aspect-ratio: 1;
-  }
-  .site-footer::before {
-    --footer-fade-size: 145px;
   }
 }
 
@@ -3330,4 +3335,222 @@ img {
   .mobile-nav-backdrop {
     top: 72px;
   }
+}
+
+/* Social Channel Icons & Rows */
+.tiktok-icon {
+  background: #010101;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.instagram-icon {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: #fff;
+}
+.channel-tiktok .channel-icon {
+  background: #010101;
+  color: #fff;
+}
+.channel-instagram .channel-icon {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: #fff;
+}
+.channel-facebook .channel-icon {
+  background: #1877f2;
+  color: #fff;
+}
+.channel-line .channel-icon {
+  background: #06bd59;
+  color: #fff;
+}
+
+/* Contact page 4-column channel grid */
+.contact-channel-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+@media (max-width: 1080px) {
+  .contact-channel-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .contact-channel-grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Social links grid & pills */
+.social-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+@media (max-width: 720px) {
+  .social-links-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--line);
+  border-radius: 9999px;
+  color: #d1d9e0 !important;
+  font-size: 13px;
+  transition: all 0.25s ease;
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
+}
+.social-pill:hover {
+  background: rgba(240, 189, 98, 0.12);
+  border-color: var(--gold);
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+.social-pill svg:first-child {
+  color: var(--gold);
+  flex-shrink: 0;
+}
+.social-pill svg:last-child {
+  margin-left: auto;
+  opacity: 0.6;
+}
+
+/* Map wrapper & pin banner */
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  z-index: 2;
+}
+.map-card-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: inherit;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
+}
+.map-card-banner:hover {
+  border-color: var(--gold);
+  background: rgba(240, 189, 98, 0.08);
+}
+.map-card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.map-card-details strong {
+  font-size: 13px;
+  color: var(--gold);
+}
+.map-card-details span {
+  font-size: 12px;
+  color: var(--muted);
+}
+.map-card-banner .map-card-link {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Footer languages list */
+.footer-lang-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+.footer-lang-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: #bbc5cf !important;
+  font-size: 11px;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
+}
+.footer-lang-link:hover {
+  border-color: var(--gold);
+  color: #fff !important;
+  background: rgba(240, 189, 98, 0.12);
+}
+
+/* Footer socials */
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.footer-socials a {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line);
+  color: #d8dfe5 !important;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
+}
+.footer-socials a:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #0d1a28 !important;
+  transform: translateY(-2px);
+}
+
+/* Button & CTA pointer events guarantee */
+.button,
+.nav-link,
+.channel-row,
+.feature-card,
+.city-card,
+.footer-col a,
+.footer-location,
+.footer-contact-compact,
+.text-link {
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
+  cursor: pointer;
 }

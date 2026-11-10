@@ -18,17 +18,28 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale: requested } = await params;
   if (!hasLocale(routing.locales, requested)) return {};
   const t = await getTranslations({ locale: requested, namespace: "meta" });
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://toanhoangrealestate.com";
   const locale = requested as Locale;
-  const openGraphLocale: Record<Locale, string> = { vi: "vi_VN", en: "en_US", zh: "zh_CN", ja: "ja_JP" };
+  const openGraphLocale: Record<Locale, string> = {
+    vi: "vi_VN",
+    en: "en_US",
+    zh: "zh_CN",
+    ja: "ja_JP",
+    id: "id_ID",
+    ne: "ne_NP",
+    my: "my_MM",
+  };
+  const alternateLanguages = Object.fromEntries(
+    routing.locales.map((code) => [code, `/${code}`])
+  );
   return {
-    ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
+    metadataBase: new URL(siteUrl),
     title: { default: t("title"), template: `%s | TOANHOANG REAL ESTATE` },
     description: t("description"),
     ...(pageKeywords(locale, "/") ? { keywords: pageKeywords(locale, "/") } : {}),
     alternates: {
       canonical: `/${requested}`,
-      languages: { vi: "/vi", en: "/en", zh: "/zh", ja: "/ja", "x-default": "/vi" },
+      languages: { ...alternateLanguages, "x-default": "/vi" },
     },
     openGraph: {
       type: "website",
@@ -63,7 +74,7 @@ export default async function LocaleLayout({ children, params }: Readonly<{ chil
           email: "genesis.estate.jp@gmail.com",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "2-5-29 Sakuragawa, Naniwa-ku",
+            streetAddress: "Room 201, Showa Building, 2-5-29 Sakuragawa, Naniwa-ku",
             addressLocality: "Osaka",
             addressRegion: "Osaka",
             postalCode: "556-0022",

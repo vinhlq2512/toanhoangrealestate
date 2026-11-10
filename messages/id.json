@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "title": "Sewa Apartemen di Osaka untuk Warga Negara Asing | TOANHOANG REAL ESTATE",
+    "description": "Mencari sewa apartemen di Osaka atau kota-kota Kansai lainnya? TOANHOANG REAL ESTATE membantu warga negara asing menemukan hunian, dengan konfirmasi syarat dan kelayakan sewa untuk setiap properti."
+  },
+  "common": {
+    "brand": "TOANHOANG REAL ESTATE",
+    "home": "Beranda",
+    "services": "Layanan",
+    "properties": "Hunian & Properti",
+    "apartments": "Apartemen",
+    "areas": "Wilayah",
+    "connect": "Tetap Terhubung",
+    "footerDescription": "Membantu warga negara asing menemukan hunian dan menetap dengan nyaman di Jepang.",
+    "faq": "FAQ",
+    "contact": "Kontak",
+    "learnMore": "Pelajari lebih lanjut",
+    "viewAll": "Lihat semua",
+    "contactUs": "Hubungi kami",
+    "line": "Kirim pesan di LINE",
+    "facebook": "Hubungi di Facebook",
+    "location": "Osaka, Jepang",
+    "menu": "Buka menu",
+    "close": "Tutup menu",
+    "language": "Bahasa",
+    "copyright": "© 2026 TOANHOANG REAL ESTATE. Hak cipta dilindungi undang-undang.",
+    "madeFor": "Rumah Anda di Jepang"
+  },
+  "nav": {
+    "tagline": "Rumah Anda di Jepang"
+  },
+  "home": {
+    "eyebrow": "TOANHOANG REAL ESTATE",
+    "title": "Mendampingi perjalanan Anda menuju <highlight>kehidupan di Jepang</highlight>",
+    "highlight": "Kehidupan di Jepang",
+    "subtitle": "Temukan hunian yang sesuai dan mulailah kehidupan baru Anda di Jepang.",
+    "description": "TOANHOANG REAL ESTATE menyediakan layanan properti dan dukungan kehidupan sehari-hari bagi warga asing di Jepang. Mulai dari mencari apartemen hingga kebutuhan harian, kami siap mendengarkan dan membantu Anda di setiap langkah.",
+    "support": "Dukungan warga negara asing",
+    "osaka": "Banyak pilihan hunian di Osaka",
+    "free": "Konsultasi sesuai kebutuhan",
+    "languages": "Dukungan multibahasa",
+    "introTitle": "Lebih dari sekadar tempat tinggal",
+    "introText": "Menemukan hunian yang tepat hanyalah permulaan. Kami mendampingi Anda mulai dari pencarian dan dokumen hingga menetap dengan nyaman di Jepang.",
+    "introCta": "Temukan apartemen yang sesuai",
+    "features": [
+      {
+        "title": "Hunian yang sesuai",
+        "text": "Jelajahi apartemen untuk berbagai kebutuhan dan anggaran."
+      },
+      {
+        "title": "Bantuan dokumen",
+        "text": "Panduan dokumen, pengajuan aplikasi, dan prosedur penting."
+      },
+      {
+        "title": "Tur video",
+        "text": "Pratinjau hunian melalui video dan foto yang tersedia."
+      },
+      {
+        "title": "Dukungan multibahasa",
+        "text": "Konsultasi dalam bahasa Indonesia, Vietnam, dan bahasa lainnya."
+      }
+    ],
+    "areasTitle": "Wilayah unggulan di Jepang",
+    "areasText": "Jelajahi tempat-tempat populer yang dipilih oleh banyak warga asing.",
+    "cities": [
+      {
+        "name": "Osaka",
+        "native": "大阪",
+        "image": "/images/locations/osaka-castle-spring.png"
+      },
+      {
+        "name": "Kobe",
+        "native": "神戸",
+        "image": "/images/locations/kobe-waterfront.png"
+      },
+      {
+        "name": "Kyoto",
+        "native": "京都",
+        "image": "/images/locations/fuji-sunset-pagoda.png"
+      },
+      {
+        "name": "Nara",
+        "native": "奈良",
+        "image": "/images/locations/nara-autumn-deer.png"
+      },
+      {
+        "name": "Himeji",
+        "native": "姫路",
+        "image": "/images/locations/himeji-castle-sakura.png"
+      },
+      {
+        "name": "Tokyo",
+        "native": "東京",
+        "image": "/images/locations/tokyo-tower-sakura.png"
+      }
+    ],
+    "socialTitle": "Tetap terhubung",
+    "socialText": "Ikuti saluran kami untuk informasi bermanfaat seputar kehidupan di Jepang.",
+    "socialFacebook": "Pembaruan informasi dan tempat berdiskusi dengan tim kami",
+    "socialTiktok": "Video seputar hunian dan kehidupan sehari-hari",
+    "socialInstagram": "Foto-foto apartemen dan ruang tempat tinggal",
+    "socialLine": "LINE: 070-7595-7320 · Kirim pesan untuk konsultasi pribadi",
+    "ctaTitle": "Perjalanan Anda dimulai di sini",
+    "ctaText": "Sedang mencari rumah, bersiap pindah ke Jepang, atau butuh bantuan sehari-hari? Beritahu kami kebutuhan Anda.",
+    "cta": "Jelajahi pilihan bersama"
+  },
+  "services": {
+    "eyebrow": "02 · LAYANAN KAMI",
+    "title": "Dukungan praktis untuk kehidupan di Jepang",
+    "description": "TOANHOANG REAL ESTATE menawarkan layanan untuk membantu Anda mencari rumah, mempersiapkan kepindahan, dan mengurus kebutuhan penting sehari-hari.",
+    "contactTitle": "Terhubung dengan kami",
+    "contactText": "Kami berharap dapat mendukung Anda dalam membangun kehidupan di Jepang.",
+    "items": [
+      {
+        "title": "Layanan properti",
+        "description": "Kami membantu Anda mencari hunian yang sesuai dengan kebutuhan, lokasi, dan anggaran Anda.",
+        "points": [
+          "Sewa apartemen atau rumah",
+          "Konsultasi jual beli properti",
+          "Cari ruang kantor",
+          "Cari toko, restoran, atau tempat usaha",
+          "Pencarian di berbagai wilayah di seluruh Jepang"
+        ],
+        "image": "/images/services/warm-apartment-sunset.png",
+        "cta": "Tanya tentang properti"
+      },
+      {
+        "title": "Pengaturan utilitas dan internet",
+        "description": "Siapkan fasilitas penting saat Anda pindah ke rumah baru.",
+        "points": [
+          "Pengaktifan listrik",
+          "Pengaktifan air",
+          "Pengaktifan gas",
+          "Pemasangan internet dan Wi-Fi"
+        ],
+        "image": "/images/services/apartment-kitchen-gas.png",
+        "cta": "Pelajari layanan ini"
+      },
+      {
+        "title": "Barang bekas, perabot, dan pindahan",
+        "description": "Temukan barang-barang rumah tangga praktis yang sesuai dengan anggaran Anda.",
+        "points": [
+          "Cari perabot bekas berkualitas",
+          "Cari perlengkapan rumah tangga terjangkau",
+          "Bantuan pemindahan barang",
+          "Pengiriman dan perakitan jika tersedia"
+        ],
+        "image": "/images/services/moving-day-japan.png",
+        "cta": "Tanya tentang pindahan dan perabot"
+      },
+      {
+        "title": "Dukungan kedatangan",
+        "description": "Persiapkan langkah pertama setelah Anda tiba di Jepang.",
+        "points": [
+          "Penjemputan di bandara",
+          "Bantuan pengurusan kartu SIM ponsel",
+          "Bantuan persiapan Wi-Fi",
+          "Panduan pembukaan rekening bank (sesuai syarat)"
+        ],
+        "image": "/images/services/osaka-airport-arrivals.png",
+        "cta": "Pelajari layanan ini"
+      },
+      {
+        "title": "Dukungan kehidupan sehari-hari",
+        "description": "Informasi dan panduan untuk mempermudah kehidupan harian Anda di Jepang.",
+        "points": [
+          "Pelajari layanan-layanan penting",
+          "Diskusikan kebutuhan Anda dengan tim kami",
+          "Menghubungkan ke layanan yang sesuai jika memungkinkan"
+        ],
+        "image": "/images/services/daily-life-support-japan.png",
+        "cta": "Bicara dengan kami"
+      }
+    ],
+    "ctaTitle": "Dapatkan bantuan sesuai kebutuhan Anda",
+    "ctaText": "Beri tahu kami layanan yang Anda butuhkan, dan kami akan membantu menemukan solusi yang tepat."
+  },
+  "properties": {
+    "eyebrow": "03 · HUNIAN & PROPERTI",
+    "title": "Temukan hunian di Jepang yang sesuai kebutuhan Anda",
+    "description": "Jelajahi apartemen sewa, ruang komersial, dan peluang investasi di Osaka, Kobe, Kyoto, Nara, dan seluruh Jepang.",
+    "rentalTitle": "Apartemen dan rumah sewa",
+    "rentalText": "Jelajahi pilihan hunian sewa untuk pelajar, pekerja profesional, dan keluarga.",
+    "rentalCta": "Lihat apartemen sewa",
+    "rentals": [
+      {
+        "title": "Sewa terjangkau",
+        "subtitle": "Cheap Rentals",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Pilihan hunian yang hemat dan ramah anggaran."
+      },
+      {
+        "title": "Perumahan SHI",
+        "subtitle": "市営住宅・府営住宅",
+        "image": "/images/properties/village-house-apartment.png",
+        "text": "Perumahan publik yang dikelola pemerintah kota atau prefektur, tunduk pada persyaratan aplikasi dan kelayakan."
+      },
+      {
+        "title": "Perumahan UR",
+        "subtitle": "UR賃貸住宅",
+        "image": "/images/properties/ur-apartment-sakura.png",
+        "text": "Hunian dalam sistem UR tanpa uang kunci atau biaya perpanjangan, sesuai dengan ketentuan yang berlaku."
+      },
+      {
+        "title": "Village House",
+        "subtitle": "Village House",
+        "image": "/images/properties/village-house-apartment.png",
+        "text": "Apartemen dengan berbagai tipe kamar dan harga terjangkau di seluruh Jepang."
+      },
+      {
+        "title": "Leopalace21",
+        "subtitle": "Leopalace21",
+        "image": "/images/properties/leopalace-studio-apartment.png",
+        "text": "Apartemen sewa berperabot lengkap untuk berbagai kebutuhan tinggal."
+      },
+      {
+        "title": "SABAI",
+        "subtitle": "SABAI",
+        "image": "/images/properties/sabai-apartment.png",
+        "text": "Jelajahi pilihan perumahan dari sistem SABAI."
+      },
+      {
+        "title": "MITAKA",
+        "subtitle": "MITAKA",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Jelajahi pilihan perumahan dari sistem MITAKA."
+      },
+      {
+        "title": "LEALEA",
+        "subtitle": "LEALEA",
+        "image": "/images/properties/japanese-rental-apartment.png",
+        "text": "Jelajahi pilihan perumahan dari sistem LEALEA."
+      }
+    ],
+    "businessTitle": "Ruang komersial (kantor dan toko)",
+    "businessText": "Temukan kantor, toko, atau restoran untuk memulai atau mengembangkan bisnis Anda di Jepang.",
+    "business": [
+      "Ruang kantor",
+      "Ruang ritel",
+      "Ruang restoran",
+      "Ruang gudang",
+      "Gedung komersial",
+      "Lokasi dekat stasiun"
+    ],
+    "businessImage": "/images/services/warm-apartment-sunset.png",
+    "businessCta": "Tanya tentang ruang komersial",
+    "saleTitle": "Jual beli properti",
+    "saleText": "Ingin membeli rumah tinggal atau properti investasi di Jepang? Kami mendampingi seluruh prosesnya.",
+    "sale": [
+      {
+        "title": "Bangunan yang ada",
+        "image": "/images/properties/japanese-rental-apartment.png"
+      },
+      {
+        "title": "Kondominium",
+        "image": "/images/properties/village-house-apartment.png"
+      },
+      {
+        "title": "Seluruh gedung apartemen",
+        "image": "/images/properties/ur-apartment-sakura.png"
+      },
+      {
+        "title": "Rumah terpisah",
+        "image": "/images/properties/sabai-apartment.png"
+      },
+      {
+        "title": "Tanah",
+        "image": "/images/locations/fuji-sunset-pagoda.png"
+      },
+      {
+        "title": "Properti komersial dan investasi",
+        "image": "/images/locations/kobe-city-at-night.png"
+      }
+    ],
+    "saleCta": "Tanya tentang jual beli properti",
+    "searchLabel": "Cari hunian",
+    "searchPlaceholder": "Lokasi atau stasiun terdekat...",
+    "searchButton": "Cari",
+    "results": "Hasil pencarian",
+    "noResults": "Tidak ada hasil yang cocok",
+    "clearSearch": "Hapus pencarian",
+    "ctaTitle": "Mari temukan rumah yang cocok",
+    "ctaText": "Beri tahu kami anggaran, area favorit, dan preferensi Anda. Tim kami akan membantu mencarikan opsi yang paling sesuai.",
+    "disclaimer": "Pemberitahuan: Properti yang ditampilkan hanyalah sampel ilustrasi. Untuk ketersediaan aktual, harga sewa, dan persyaratan, silakan hubungi tim kami secara langsung."
+  },
+  "faq": {
+    "eyebrow": "04 · FAQ",
+    "title": "FAQ Sewa Rumah di Jepang",
+    "subtitle": "Jawaban jelas untuk pertanyaan umum dari warga negara asing.",
+    "description": "Informasi penting untuk membantu Anda memahami aturan, prosedur, dan biaya sewa rumah di Jepang.",
+    "contactTitle": "Masih ada pertanyaan?",
+    "contactText": "Jika pertanyaan Anda belum tercantum di sini, silakan hubungi kami langsung via LINE atau Facebook.",
+    "groups": [
+      {
+        "title": "Istilah sewa",
+        "subtitle": "Konsep umum yang perlu dipahami saat menyewa properti di Jepang.",
+        "items": [
+          {
+            "question": "Apa itu perusahaan penjamin sewa?",
+            "japanese": "保証会社（ほしょうがいしゃ）",
+            "answer": "Sebuah entitas yang menjamin pembayaran sewa kepada pemilik properti jika penyewa menunggak. Di Jepang, banyak properti mengharuskan penggunaan perusahaan penjamin daripada penjamin perorangan."
+          },
+          {
+            "question": "Apa itu asuransi properti sewa?",
+            "japanese": "火災保険（かさいほけん）",
+            "answer": "Asuransi yang mencakup risiko kebakaran, kerusakan air, dan tanggung jawab hukum penyewa kepada pemilik properti. Biasanya wajib diperbarui setiap dua tahun."
+          },
+          {
+            "question": "Apa itu uang kunci (reikin)?",
+            "japanese": "礼金（れいきん）",
+            "answer": "Uang apresiasi yang dibayarkan sekali di awal kepada pemilik properti. Uang ini tidak dapat dikembalikan saat pindah."
+          },
+          {
+            "question": "Apa itu uang jaminan (shikikin)?",
+            "japanese": "敷金（しききん）",
+            "answer": "Deposit yang ditahan oleh pemilik rumah untuk menutupi potensi sewa tertunggak atau biaya perbaikan kerusakan saat keluar. Sisanya akan dikembalikan setelah dipotong biaya yang sah."
+          },
+          {
+            "question": "Apa peran perusahaan pengelola properti?",
+            "japanese": "管理会社（かんりがいしゃ）",
+            "answer": "Perusahaan yang ditunjuk pemilik untuk mengelola operasional gedung, pemeliharaan fasilitas bersama, dan menangani keluhan penyewa."
+          },
+          {
+            "question": "Apa itu biaya perantara (chūkai tesūryō)?",
+            "japanese": "仲介手数料（ちゅうかいてすうりょう）",
+            "answer": "Biaya jasa yang dibayarkan kepada agen properti yang membantu mencarikan dan menyelesaikan proses kontrak sewa."
+          }
+        ]
+      },
+      {
+        "title": "Pihak yang terlibat dalam sewa",
+        "subtitle": "Pihak-pihak yang berperan dalam transaksi sewa menyewa.",
+        "items": [
+          {
+            "question": "Siapa saja yang terlibat saat menyewa rumah?",
+            "japanese": "",
+            "answer": "Penyewa, pemilik properti (owner), agen perantara (kami), perusahaan pengelola properti, perusahaan penjamin sewa, dan perusahaan asuransi."
+          }
+        ]
+      },
+      {
+        "title": "Biaya sewa",
+        "subtitle": "Biaya awal, deposit, dan biaya bulanan.",
+        "items": [
+          {
+            "question": "Apa saja yang termasuk dalam biaya awal (initial costs)?",
+            "japanese": "初期費用（しょきひよう）",
+            "answer": "Biasanya mencakup sewa bulan pertama, uang jaminan (shikikin), uang kunci (reikin, jika ada), biaya perantara agen, biaya perusahaan penjamin, asuransi kebakaran, dan biaya ganti kunci."
+          },
+          {
+            "question": "Apakah biaya awal selalu 4 hingga 6 bulan sewa?",
+            "japanese": "",
+            "answer": "Tidak selalu. Rata-rata berkisar 3 hingga 5 bulan sewa, namun kami juga memiliki banyak pilihan tanpa deposit dan tanpa uang kunci (zero-zero) untuk menghemat biaya."
+          },
+          {
+            "question": "Apa perbedaan antara uang jaminan dan uang kunci?",
+            "japanese": "敷金・礼金",
+            "answer": "Uang jaminan (shikikin) dapat dikembalikan setelah dikurangi biaya perbaikan, sedangkan uang kunci (reikin) adalah hadiah apresiasi yang tidak dapat dikembalikan."
+          },
+          {
+            "question": "Apakah biaya penjamin merupakan uang jaminan?",
+            "japanese": "",
+            "answer": "Bukan. Biaya penjamin adalah biaya jasa kepada perusahaan penjamin dan tidak dapat dikembalikan meskipun Anda membayar sewa tepat waktu."
+          },
+          {
+            "question": "Apakah biaya pengelolaan sudah termasuk dalam sewa?",
+            "japanese": "",
+            "answer": "Tergantung propertinya. Ada yang sudah menggabungkannya ke dalam sewa bulanan, dan ada yang mencantumkannya secara terpisah."
+          }
+        ]
+      },
+      {
+        "title": "Dokumen dan perjanjian sewa",
+        "subtitle": "Pertanyaan mengenai berkas dan proses kontrak sewa.",
+        "items": [
+          {
+            "question": "Dokumen apa saja yang dibutuhkan warga asing?",
+            "japanese": "",
+            "answer": "Tergantung kasusnya: Kartu Izin Tinggal (Zairyu Card), paspor, bukti penghasilan (slip gaji atau surat kerja) atau kartu pelajar/surat penerimaan sekolah, nomor telepon Jepang, dan kontak darurat."
+          },
+          {
+            "question": "Apakah mengajukan aplikasi berarti rumah sudah pasti didapatkan?",
+            "japanese": "",
+            "answer": "Belum. Pengajuan aplikasi memulai proses skrining (pemeriksaan). Rumah baru dipastikan setelah lolos skrining, menandatangani kontrak, dan membayar biaya awal."
+          },
+          {
+            "question": "Bisakah saya langsung pindah setelah tanda tangan kontrak?",
+            "japanese": "",
+            "answer": "Tidak selalu. Tanggal serah terima kunci biasanya memerlukan 3 hingga 7 hari setelah kontrak untuk proses pembersihan dan penggantian kunci."
+          },
+          {
+            "question": "Apakah saya akan mendapatkan deposit kembali saat pindah keluar?",
+            "japanese": "",
+            "answer": "Sebagian atau seluruhnya dapat dikembalikan setelah dipotong biaya pembersihan standar dan perbaikan kerusakan di luar keausan wajar sesuai isi kontrak."
+          }
+        ]
+      }
+    ],
+    "categories": [
+      "ISTILAH DASAR",
+      "PIHAK TERKAIT",
+      "BIAYA SEWA",
+      "DOKUMEN & KONTRAK"
+    ]
+  },
+  "contact": {
+    "eyebrow": "05 · KONTAK",
+    "title": "Hubungi Kami tentang Sewa Rumah di Osaka dan Kansai",
+    "description": "Mencari sewa di Osaka, Kobe, Kyoto, atau Nara? Hubungi TOANHOANG REAL ESTATE untuk bantuan pencarian. Kelayakan dan ketentuan sewa dikonfirmasi untuk setiap properti.",
+    "lineTitle": "Kirim pesan di LINE",
+    "lineText": "Hubungi tim kami secara langsung untuk mendiskusikan kebutuhan Anda.",
+    "linePhone": "Nomor telepon LINE",
+    "lineProfileLink": "Buka profil LINE kami",
+    "facebookTitle": "Hubungi di Facebook",
+    "facebookText": "Kirimkan pertanyaan dan diskusikan layanan yang Anda perlukan.",
+    "infoTitle": "Informasi kontak",
+    "legalName": "Nama badan hukum",
+    "address": "Alamat kantor",
+    "phone": "Telepon",
+    "email": "Email",
+    "hours": "Jam kerja",
+    "hoursValue": "09:00–17:00",
+    "map": "Lihat di Google Maps",
+    "socialTitle": "Terhubung dengan kami",
+    "facebook": "Facebook · Kirim pesan dan tanyakan seputar properti.",
+    "tiktok": "TikTok · Video tur apartemen dan kehidupan di Jepang.",
+    "instagram": "Instagram · Foto-foto apartemen dan ruang tempat tinggal.",
+    "line": "LINE · Kirim pesan untuk konsultasi pribadi.",
+    "closing": "Kami berharap dapat mendukung Anda dalam membangun kehidupan di Jepang.",
+    "channelsNote": "Halaman Facebook dan profil LINE kami telah tertaut. Anda juga dapat mencari kami di LINE dengan nomor 070-7595-7320."
+  },
+  "listing": {
+    "demoNotice": "Contoh di bawah ini adalah data sampel untuk demonstrasi antarmuka saja, bukan listing properti sebenarnya. Konfirmasikan harga aktual, ketersediaan, alamat, dan syarat sewa dengan tim kami.",
+    "sampleLabel": "Sampel · bukan listing sebenarnya",
+    "title": "Apartemen dan rumah sewa",
+    "description": "Lihat kartu sampel dan detail properti. Hubungi kami untuk mengonfirmasi pilihan nyata sesuai area dan anggaran Anda.",
+    "searchLegend": "Temukan rumah yang cocok",
+    "keyword": "Kata kunci",
+    "keywordPlaceholder": "Properti, area, atau stasiun terdekat",
+    "area": "Wilayah",
+    "allAreas": "Semua wilayah",
+    "osaka": "Osaka",
+    "kobe": "Kobe",
+    "propertyType": "Tipe properti",
+    "anyType": "Semua tipe",
+    "apartment": "Apartemen",
+    "house": "Rumah mandiri",
+    "minPrice": "Sewa min (¥/bln)",
+    "maxPrice": "Sewa maks (¥/bln)",
+    "minArea": "Luas min (m²)",
+    "sort": "Urutkan",
+    "newest": "Baru diperbarui",
+    "priceLow": "Harga: rendah ke tinggi",
+    "priceHigh": "Harga: tinggi ke rendah",
+    "applyFilters": "Cari hunian",
+    "reset": "Atur ulang filter",
+    "resultCount": "{count} sampel hunian",
+    "noResults": "Tidak ada sampel hunian yang cocok dengan filter ini. Coba perluas pencarian Anda.",
+    "listingType": "Untuk disewa",
+    "perMonth": "/ bulan",
+    "sqm": "m²",
+    "neighborhood": "Wilayah",
+    "nearestStation": "Stasiun terdekat",
+    "minuteWalk": "{count} mnt jalan kaki",
+    "details": "Lihat detail",
+    "detailTitle": "Detail properti",
+    "overview": "Ringkasan",
+    "descriptionHeading": "Tentang hunian ini",
+    "amenities": "Fasilitas",
+    "contactAgent": "Bicara dengan tim kami",
+    "agentName": "TOANHOANG REAL ESTATE",
+    "agentRole": "Konsultan hunian",
+    "contactText": "Ini adalah halaman sampel. Hubungi kami untuk memastikan informasi hunian yang sebenarnya sebelum mengambil keputusan.",
+    "contactNow": "Hubungi kami untuk konfirmasi",
+    "related": "Sampel hunian lainnya",
+    "backToSearch": "Kembali ke hasil pencarian",
+    "sampleDetailNotice": "Semua informasi di halaman ini adalah data sampel dan tidak mewakili properti yang sedang ditawarkan saat ini.",
+    "floorPlanLabel": "Tata letak",
+    "floorAreaLabel": "Luas lantai"
+  }
+}

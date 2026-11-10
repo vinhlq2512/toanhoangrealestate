@@ -19,6 +19,9 @@ function localeFromCountry(request: NextRequest): Locale {
   if (country === "VN") return "vi";
   if (country === "CN") return "zh";
   if (country === "JP") return "ja";
+  if (country === "ID") return "id";
+  if (country === "NP") return "ne";
+  if (country === "MM") return "my";
   return "en";
 }
 
