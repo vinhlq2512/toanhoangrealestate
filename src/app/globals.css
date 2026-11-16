@@ -3114,12 +3114,22 @@ img {
 .social-section::before {
   content: '';
   position: absolute;
-  inset: 0;
+  inset: calc(-1 * var(--section-fade-size, 170px)) 0 0;
   z-index: 0;
   pointer-events: none;
   background-image: var(--section-scene);
   background-size: cover;
   background-position: center;
+  -webkit-mask-image: linear-gradient(
+    180deg,
+    transparent 0,
+    #000 var(--section-fade-size, 170px)
+  );
+  mask-image: linear-gradient(
+    180deg,
+    transparent 0,
+    #000 var(--section-fade-size, 170px)
+  );
 }
 .areas-section::before {
   background-position:
@@ -3134,15 +3144,17 @@ img {
 .site-footer {
   position: relative;
   isolation: isolate;
-  border-top: 1px solid var(--line);
+  clip-path: inset(calc(-1 * var(--footer-fade-size, 190px)) 0 0);
+  border-top: 0;
   background-color: #0e161e;
 }
 .site-footer::before {
   content: '';
   position: absolute;
-  inset: 0;
+  inset: calc(-1 * var(--footer-fade-size, 190px)) 0 0;
   z-index: 0;
   pointer-events: none;
+  filter: blur(3px);
   background-image:
     linear-gradient(180deg, rgba(6, 15, 25, 0.96), rgba(6, 15, 25, 0.92)),
     url('/images/backgrounds/japan-homes-sakura.jpg');
@@ -3150,6 +3162,16 @@ img {
     center,
     center 76%;
   background-size: cover;
+  -webkit-mask-image: linear-gradient(
+    180deg,
+    transparent 0,
+    #000 var(--footer-fade-size, 190px)
+  );
+  mask-image: linear-gradient(
+    180deg,
+    transparent 0,
+    #000 var(--footer-fade-size, 190px)
+  );
 }
 .site-footer > .container {
   position: relative;
@@ -3211,6 +3233,9 @@ img {
   .areas-section .city-card {
     height: auto;
     aspect-ratio: 1;
+  }
+  .site-footer::before {
+    --footer-fade-size: 145px;
   }
 }
 
